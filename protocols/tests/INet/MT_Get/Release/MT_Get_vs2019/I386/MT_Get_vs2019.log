@@ -1,0 +1,177 @@
+﻿  Main.cpp
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(103,83): warning C4244: 'argument' : conversion de 'std::streamsize' en 'size_t', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(95): message : pendant la compilation de la fonction membre classe modèle 'int ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::read_from_stream(char *,std::streamsize)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.h(90): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.h(115): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::String_IOSBase<char,std::char_traits<char>>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\tests\INet\MT_Get\Main.cpp(71): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::String_OStreamBase<char,std::char_traits<char>>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(104,30): warning C4244: '+=' : conversion de 'std::streamsize' en 'unsigned int', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(116,48): warning C4244: 'argument' : conversion de 'std::streamsize' en 'ACE_Allocator::size_type', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(112): message : pendant la compilation de la fonction membre classe modèle 'int ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::write_to_stream(const char *,std::streamsize)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(52,17): warning C4244: '+=' : conversion de '__int64' en 'unsigned int', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(42): message : pendant la compilation de la fonction membre classe modèle 'std::fpos<_Mbstatet> ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::seekoff(__int64,int,int)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(166,82): warning C4244: 'argument' : conversion de 'std::streamsize' en 'size_t', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(165): message : pendant la compilation de la fonction membre classe modèle 'int ACE::IOS::BasicBidirStreamBuffer<char,STREAM_HANDLER,std::char_traits<char>>::read_from_stream(char *,std::streamsize)'
+          with
+          [
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(78): message : voir la référence à l'instanciation de la fonction modèle 'int ACE::IOS::BasicBidirStreamBuffer<char,STREAM_HANDLER,std::char_traits<char>>::read_from_stream(char *,std::streamsize)' en cours de compilation
+          with
+          [
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.h(110): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::BasicBidirStreamBuffer<char,STREAM_HANDLER,std::char_traits<char>>' en cours de compilation
+          with
+          [
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.h(39): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::BidirStreamBuffer<ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH>>' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.h(65): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::Sock_StreamBufferBase<_ACE_SYNCH>' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.h(138): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::Sock_IOSBase<_ACE_SYNCH>' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\HTTP_Session.cpp(88): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::Sock_IOStreamBase<_ACE_SYNCH>' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\HTTP_Session.cpp(58): message : pendant la compilation de la fonction membre classe modèle 'bool ACE::HTTP::Session_T<ACE_MT_SYNCH>::connect_i(const ACE_Synch_Options &)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\HTTP_ClientRequestHandler.h(97): message : voir la référence à l'instanciation classe modèle 'ACE::HTTP::Session_T<ACE_MT_SYNCH>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(173,81): warning C4244: 'argument' : conversion de 'std::streamsize' en 'size_t', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(172): message : pendant la compilation de la fonction membre classe modèle 'int ACE::IOS::BasicBidirStreamBuffer<char,STREAM_HANDLER,std::char_traits<char>>::write_to_stream(const char *,std::streamsize)'
+          with
+          [
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(28,9): warning C4244: 'initialisation' : conversion de 'std::streamsize' en 'unsigned int', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(20): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::BasicBidirStreamBuffer<char,STREAM_HANDLER,std::char_traits<char>>::BasicBidirStreamBuffer(STREAM_HANDLER *,std::streamsize,int)'
+          with
+          [
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(203): message : voir la référence à l'instanciation de la fonction modèle 'ACE::IOS::BasicBidirStreamBuffer<char,STREAM_HANDLER,std::char_traits<char>>::BasicBidirStreamBuffer(STREAM_HANDLER *,std::streamsize,int)' en cours de compilation
+          with
+          [
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(203): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::BidirStreamBuffer<ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH>>::BidirStreamBuffer(STREAM_HANDLER *,std::streamsize,int)'
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH,
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.cpp(16): message : voir la référence à l'instanciation de la fonction modèle 'ACE::IOS::BidirStreamBuffer<ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH>>::BidirStreamBuffer(STREAM_HANDLER *,std::streamsize,int)' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH,
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.cpp(16): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::Sock_StreamBufferBase<_ACE_SYNCH>::Sock_StreamBufferBase(ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH> *)'
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.cpp(30): message : voir la référence à l'instanciation de la fonction modèle 'ACE::IOS::Sock_StreamBufferBase<_ACE_SYNCH>::Sock_StreamBufferBase(ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH> *)' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.cpp(30): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::Sock_IOSBase<_ACE_SYNCH>::Sock_IOSBase(ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH> *)'
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.cpp(107): message : voir la référence à l'instanciation de la fonction modèle 'ACE::IOS::Sock_IOSBase<_ACE_SYNCH>::Sock_IOSBase(ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH> *)' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.cpp(107): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::Sock_IOStreamBase<_ACE_SYNCH>::Sock_IOStreamBase(ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH> *)'
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\HTTP_Session.cpp(88): message : voir la référence à l'instanciation de la fonction modèle 'ACE::IOS::Sock_IOStreamBase<_ACE_SYNCH>::Sock_IOStreamBase(ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH> *)' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(31,9): warning C4244: 'initialisation' : conversion de 'std::streamsize' en 'unsigned int', perte possible de données
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual class ACE_Task<class ACE_MT_SYNCH,class ACE_System_Time_Policy> * __thiscall ACE_Task<class ACE_MT_SYNCH,class ACE_System_Time_Policy>::next(void)" (__imp_?next@?$ACE_Task@VACE_MT_SYNCH@@VACE_System_Time_Policy@@@@UAEPAV1@XZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Task<class ACE_MT_SYNCH,class ACE_System_Time_Policy>::~ACE_Task<class ACE_MT_SYNCH,class ACE_System_Time_Policy>(void)" (__imp_??1?$ACE_Task@VACE_MT_SYNCH@@VACE_System_Time_Policy@@@@UAE@XZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Task<class ACE_MT_SYNCH,class ACE_System_Time_Policy>::ACE_Task<class ACE_MT_SYNCH,class ACE_System_Time_Policy>(class ACE_Thread_Manager *,class ACE_Message_Queue<class ACE_MT_SYNCH,class ACE_System_Time_Policy> *)" (__imp_??0?$ACE_Task@VACE_MT_SYNCH@@VACE_System_Time_Policy@@@@QAE@PAVACE_Thread_Manager@@PAV?$ACE_Message_Queue@VACE_MT_SYNCH@@VACE_System_Time_Policy@@@@@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Thread_Mutex::~ACE_Thread_Mutex(void)" (__imp_??1ACE_Thread_Mutex@@QAE@XZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Thread_Mutex::ACE_Thread_Mutex(char const *,struct ACE_mutexattr_t *)" (__imp_??0ACE_Thread_Mutex@@QAE@PBDPAUACE_mutexattr_t@@@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Reactor * __cdecl ACE_Reactor::instance(void)" (__imp_?instance@ACE_Reactor@@SAPAV1@XZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Thread_Manager::wait(class ACE_Time_Value const *,bool,bool)" (__imp_?wait@ACE_Thread_Manager@@QAEHPBVACE_Time_Value@@_N1@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Thread_Manager * __cdecl ACE_Thread_Manager::instance(void)" (__imp_?instance@ACE_Thread_Manager@@SAPAV1@XZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Main_Base::run(int,char * * const)" (__imp_?run@ACE_Main_Base@@QAEHHQAPAD@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Main_Base::~ACE_Main_Base(void)" (__imp_??1ACE_Main_Base@@UAE@XZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Main_Base::ACE_Main_Base(void)" (__imp_??0ACE_Main_Base@@QAE@XZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Task_Base::resume(void)" (__imp_?resume@ACE_Task_Base@@UAEHXZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Task_Base::suspend(void)" (__imp_?suspend@ACE_Task_Base@@UAEHXZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Task_Base::wait(void)" (__imp_?wait@ACE_Task_Base@@UAEHXZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Task_Base::activate(long,int,int,long,int,class ACE_Task_Base *,void * * const,void * * const,unsigned int * const,unsigned long * const,char const * * const)" (__imp_?activate@ACE_Task_Base@@UAEHJHHJHPAV1@QAPAX1QAIQAKQAPBD@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Task_Base::put(class ACE_Message_Block *,class ACE_Time_Value *)" (__imp_?put@ACE_Task_Base@@UAEHPAVACE_Message_Block@@PAVACE_Time_Value@@@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Task_Base::module_closed(void)" (__imp_?module_closed@ACE_Task_Base@@UAEHXZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Task_Base::close(unsigned long)" (__imp_?close@ACE_Task_Base@@UAEHK@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Task_Base::open(void *)" (__imp_?open@ACE_Task_Base@@UAEHPAX@Z)
+    Conseil sur les symboles définis et susceptibles de correspondre :
+      "__declspec(dllimport) public: virtual class ACE::INet::URLStream __thiscall ACE::INet::URL_Base::open(class ACE::INet::ClientRequestHandler &)const " (__imp_?open@URL_Base@INet@ACE@@UBE?AVURLStream@23@AAVClientRequestHandler@23@@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __cdecl ACE_Log_Msg::log(enum ACE_Log_Priority,char const *,...)" (__imp_?log@ACE_Log_Msg@@QAAHW4ACE_Log_Priority@@PBDZZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Log_Msg::conditional_set(char const *,int,int,int)" (__imp_?conditional_set@ACE_Log_Msg@@QAEXPBDHHH@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Log_Msg::last_error_adapter(void)" (__imp_?last_error_adapter@ACE_Log_Msg@@SAHXZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Log_Msg * __cdecl ACE_Log_Msg::instance(void)" (__imp_?instance@ACE_Log_Msg@@SAPAV1@XZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Condition<class ACE_Thread_Mutex>::broadcast(void)" (__imp_?broadcast@?$ACE_Condition@VACE_Thread_Mutex@@@@QAEHXZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Condition<class ACE_Thread_Mutex>::wait(void)" (__imp_?wait@?$ACE_Condition@VACE_Thread_Mutex@@@@QAEHXZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Condition<class ACE_Thread_Mutex>::~ACE_Condition<class ACE_Thread_Mutex>(void)" (__imp_??1?$ACE_Condition@VACE_Thread_Mutex@@@@QAE@XZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Condition<class ACE_Thread_Mutex>::ACE_Condition<class ACE_Thread_Mutex>(class ACE_Thread_Mutex &,char const *,void *)" (__imp_??0?$ACE_Condition@VACE_Thread_Mutex@@@@QAE@AAVACE_Thread_Mutex@@PBDPAX@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: bool __thiscall ACE_String_Base<char>::operator!=(class ACE_String_Base<char> const &)const " (__imp_??9?$ACE_String_Base@D@@QBE_NABV0@@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: char const * __thiscall ACE_String_Base<char>::c_str(void)const " (__imp_?c_str@?$ACE_String_Base@D@@QBEPBDXZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: unsigned int __thiscall ACE_String_Base<char>::length(void)const " (__imp_?length@?$ACE_String_Base@D@@QBEIXZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_String_Base<char> & __thiscall ACE_String_Base<char>::append(char const *,unsigned int)" (__imp_?append@?$ACE_String_Base@D@@QAEAAV1@PBDI@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_String_Base<char> & __thiscall ACE_String_Base<char>::operator=(class ACE_String_Base<char> const &)" (__imp_??4?$ACE_String_Base@D@@QAEAAV0@ABV0@@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: char & __thiscall ACE_String_Base<char>::operator[](unsigned int)" (__imp_??A?$ACE_String_Base@D@@QAEAADI@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_String_Base<char>::~ACE_String_Base<char>(void)" (__imp_??1?$ACE_String_Base@D@@QAE@XZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_String_Base<char>::ACE_String_Base<char>(class ACE_Allocator *)" (__imp_??0?$ACE_String_Base@D@@QAE@PAVACE_Allocator@@@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_String_Base<char>::ACE_String_Base<char>(char const *,class ACE_Allocator *,bool)" (__imp_??0?$ACE_String_Base@D@@QAE@PBDPAVACE_Allocator@@_N@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_String_Base<char>::ACE_String_Base<char>(class ACE_String_Base<char> const &)" (__imp_??0?$ACE_String_Base@D@@QAE@ABV0@@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual long __thiscall ACE_Event_Handler::remove_reference(void)" (__imp_?remove_reference@ACE_Event_Handler@@UAEJXZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual long __thiscall ACE_Event_Handler::add_reference(void)" (__imp_?add_reference@ACE_Event_Handler@@UAEJXZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual class ACE_Reactor_Timer_Interface * __thiscall ACE_Event_Handler::reactor_timer_interface(void)const " (__imp_?reactor_timer_interface@ACE_Event_Handler@@UBEPAVACE_Reactor_Timer_Interface@@XZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual void __thiscall ACE_Event_Handler::reactor(class ACE_Reactor *)" (__imp_?reactor@ACE_Event_Handler@@UAEXPAVACE_Reactor@@@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual class ACE_Reactor * __thiscall ACE_Event_Handler::reactor(void)const " (__imp_?reactor@ACE_Event_Handler@@UBEPAVACE_Reactor@@XZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::handle_group_qos(void *)" (__imp_?handle_group_qos@ACE_Event_Handler@@UAEHPAX@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::handle_qos(void *)" (__imp_?handle_qos@ACE_Event_Handler@@UAEHPAX@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::resume_handler(void)" (__imp_?resume_handler@ACE_Event_Handler@@UAEHXZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::handle_signal(int,struct siginfo_t *,int *)" (__imp_?handle_signal@ACE_Event_Handler@@UAEHHPAUsiginfo_t@@PAH@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::handle_close(void *,unsigned long)" (__imp_?handle_close@ACE_Event_Handler@@UAEHPAXK@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::handle_exit(class ACE_Process *)" (__imp_?handle_exit@ACE_Event_Handler@@UAEHPAVACE_Process@@@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::handle_timeout(class ACE_Time_Value const &,void const *)" (__imp_?handle_timeout@ACE_Event_Handler@@UAEHABVACE_Time_Value@@PBX@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::handle_exception(void *)" (__imp_?handle_exception@ACE_Event_Handler@@UAEHPAX@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::handle_output(void *)" (__imp_?handle_output@ACE_Event_Handler@@UAEHPAX@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::handle_input(void *)" (__imp_?handle_input@ACE_Event_Handler@@UAEHPAX@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::priority(void)const " (__imp_?priority@ACE_Event_Handler@@UBEHXZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual void __thiscall ACE_Event_Handler::priority(int)" (__imp_?priority@ACE_Event_Handler@@UAEXH@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual void __thiscall ACE_Event_Handler::set_handle(void *)" (__imp_?set_handle@ACE_Event_Handler@@UAEXPAX@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual void * __thiscall ACE_Event_Handler::get_handle(void)const " (__imp_?get_handle@ACE_Event_Handler@@UBEPAXXZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Allocator * __cdecl ACE_Allocator::instance(void)" (__imp_?instance@ACE_Allocator@@SAPAV1@XZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Shared_Object::info(char * *,unsigned int)const " (__imp_?info@ACE_Shared_Object@@UBEHPAPADI@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Shared_Object::fini(void)" (__imp_?fini@ACE_Shared_Object@@UAEHXZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Shared_Object::init(int,char * * const)" (__imp_?init@ACE_Shared_Object@@UAEHHQAPAD@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Reactor::end_event_loop(void)" (__imp_?end_event_loop@ACE_Reactor@@SAHXZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static void __cdecl ACE_Reactor::reset_event_loop(void)" (__imp_?reset_event_loop@ACE_Reactor@@SAXXZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Reactor::run_event_loop(void)" (__imp_?run_event_loop@ACE_Reactor@@SAHXZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Thread_Mutex::release(void)" (__imp_?release@ACE_Thread_Mutex@@QAEHXZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Thread_Mutex::acquire(void)" (__imp_?acquire@ACE_Thread_Mutex@@QAEHXZ)
+Release\mt_get.exe : fatal error LNK1120: 65 externes non résolus

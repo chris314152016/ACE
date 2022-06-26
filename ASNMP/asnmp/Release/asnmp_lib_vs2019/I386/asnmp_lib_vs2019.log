@@ -1,0 +1,61 @@
+﻿  address.cpp
+  asn1.cpp
+  counter.cpp
+  ctr64.cpp
+  gauge.cpp
+  integer.cpp
+  octet.cpp
+  oid.cpp
+  pdu.cpp
+  sagent.cpp
+  snmp.cpp
+  target.cpp
+  timetick.cpp
+  transaction.cpp
+  vb.cpp
+  wpdu.cpp
+     Création de la bibliothèque ..\..\lib\asnmp.lib et de l'objet ..\..\lib\asnmp.exp
+address.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) int __cdecl ACE_OS::sprintf(char *,char const *,...)" (__imp_?sprintf@ACE_OS@@YAHPADPBDZZ)
+sagent.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) protected: __thiscall ACE_Event_Handler::ACE_Event_Handler(class ACE_Reactor *,int)" (__imp_??0ACE_Event_Handler@@IAE@PAVACE_Reactor@@H@Z)
+sagent.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual long __thiscall ACE_Event_Handler::remove_reference(void)" (__imp_?remove_reference@ACE_Event_Handler@@UAEJXZ)
+sagent.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual long __thiscall ACE_Event_Handler::add_reference(void)" (__imp_?add_reference@ACE_Event_Handler@@UAEJXZ)
+sagent.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual class ACE_Reactor_Timer_Interface * __thiscall ACE_Event_Handler::reactor_timer_interface(void)const " (__imp_?reactor_timer_interface@ACE_Event_Handler@@UBEPAVACE_Reactor_Timer_Interface@@XZ)
+sagent.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual void __thiscall ACE_Event_Handler::reactor(class ACE_Reactor *)" (__imp_?reactor@ACE_Event_Handler@@UAEXPAVACE_Reactor@@@Z)
+sagent.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual class ACE_Reactor * __thiscall ACE_Event_Handler::reactor(void)const " (__imp_?reactor@ACE_Event_Handler@@UBEPAVACE_Reactor@@XZ)
+sagent.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::handle_group_qos(void *)" (__imp_?handle_group_qos@ACE_Event_Handler@@UAEHPAX@Z)
+sagent.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::handle_qos(void *)" (__imp_?handle_qos@ACE_Event_Handler@@UAEHPAX@Z)
+sagent.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::resume_handler(void)" (__imp_?resume_handler@ACE_Event_Handler@@UAEHXZ)
+sagent.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::handle_signal(int,struct siginfo_t *,int *)" (__imp_?handle_signal@ACE_Event_Handler@@UAEHHPAUsiginfo_t@@PAH@Z)
+sagent.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::handle_close(void *,unsigned long)" (__imp_?handle_close@ACE_Event_Handler@@UAEHPAXK@Z)
+sagent.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::handle_exit(class ACE_Process *)" (__imp_?handle_exit@ACE_Event_Handler@@UAEHPAVACE_Process@@@Z)
+sagent.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::handle_timeout(class ACE_Time_Value const &,void const *)" (__imp_?handle_timeout@ACE_Event_Handler@@UAEHABVACE_Time_Value@@PBX@Z)
+sagent.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::handle_exception(void *)" (__imp_?handle_exception@ACE_Event_Handler@@UAEHPAX@Z)
+sagent.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::handle_output(void *)" (__imp_?handle_output@ACE_Event_Handler@@UAEHPAX@Z)
+sagent.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::priority(void)const " (__imp_?priority@ACE_Event_Handler@@UBEHXZ)
+sagent.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual void __thiscall ACE_Event_Handler::priority(int)" (__imp_?priority@ACE_Event_Handler@@UAEXH@Z)
+sagent.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual void __thiscall ACE_Event_Handler::set_handle(void *)" (__imp_?set_handle@ACE_Event_Handler@@UAEXPAX@Z)
+sagent.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Event_Handler::~ACE_Event_Handler(void)" (__imp_??1ACE_Event_Handler@@UAE@XZ)
+sagent.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void * __thiscall ACE_IPC_SAP::get_handle(void)const " (__imp_?get_handle@ACE_IPC_SAP@@QBEPAXXZ)
+snmp.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_INET_Addr::~ACE_INET_Addr(void)" (__imp_??1ACE_INET_Addr@@UAE@XZ)
+snmp.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_INET_Addr::ACE_INET_Addr(unsigned short,unsigned int)" (__imp_??0ACE_INET_Addr@@QAE@GI@Z)
+snmp.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_SOCK::close(void)" (__imp_?close@ACE_SOCK@@QAEHXZ)
+snmp.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_SOCK_Dgram::open(class ACE_Addr const &,int,int,int,int)" (__imp_?open@ACE_SOCK_Dgram@@QAEHABVACE_Addr@@HHHH@Z)
+snmp.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __cdecl ACE_Log_Msg::log(enum ACE_Log_Priority,char const *,...)" (__imp_?log@ACE_Log_Msg@@QAAHW4ACE_Log_Priority@@PBDZZ)
+snmp.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Log_Msg::conditional_set(char const *,int,int,int)" (__imp_?conditional_set@ACE_Log_Msg@@QAEXPBDHHH@Z)
+snmp.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Log_Msg::last_error_adapter(void)" (__imp_?last_error_adapter@ACE_Log_Msg@@SAHXZ)
+snmp.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Log_Msg * __cdecl ACE_Log_Msg::instance(void)" (__imp_?instance@ACE_Log_Msg@@SAPAV1@XZ)
+snmp.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_SOCK_Dgram::~ACE_SOCK_Dgram(void)" (__imp_??1ACE_SOCK_Dgram@@QAE@XZ)
+snmp.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_SOCK_Dgram::ACE_SOCK_Dgram(void)" (__imp_??0ACE_SOCK_Dgram@@QAE@XZ)
+transaction.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Reactor::register_handler(void *,class ACE_Event_Handler *,unsigned long)" (__imp_?register_handler@ACE_Reactor@@QAEHPAXPAVACE_Event_Handler@@K@Z)
+transaction.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Reactor * __cdecl ACE_Reactor::instance(void)" (__imp_?instance@ACE_Reactor@@SAPAV1@XZ)
+transaction.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_INET_Addr & __thiscall ACE_INET_Addr::operator=(class ACE_INET_Addr const &)" (__imp_??4ACE_INET_Addr@@QAEAAV0@ABV0@@Z)
+transaction.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_INET_Addr::ACE_INET_Addr(void)" (__imp_??0ACE_INET_Addr@@QAE@XZ)
+transaction.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_INET_Addr::ACE_INET_Addr(char const * const,int)" (__imp_??0ACE_INET_Addr@@QAE@QBDH@Z)
+transaction.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_SOCK_Dgram::recv(struct iovec *,class ACE_Addr &,int,class ACE_Time_Value const *)const " (__imp_?recv@ACE_SOCK_Dgram@@QBEHPAUiovec@@AAVACE_Addr@@HPBVACE_Time_Value@@@Z)
+transaction.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_SOCK_Dgram::send(void const *,unsigned int,class ACE_Addr const &,int)const " (__imp_?send@ACE_SOCK_Dgram@@QBEHPBXIABVACE_Addr@@H@Z)
+transaction.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Reactor::remove_handler(class ACE_Event_Handler *,unsigned long)" (__imp_?remove_handler@ACE_Reactor@@QAEHPAVACE_Event_Handler@@K@Z)
+transaction.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Reactor::handle_events(class ACE_Time_Value &)" (__imp_?handle_events@ACE_Reactor@@QAEHAAVACE_Time_Value@@@Z)
+transaction.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Time_Value::ACE_Time_Value(__int64,long)" (__imp_??0ACE_Time_Value@@QAE@_JJ@Z)
+transaction.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Time_Value::set(__int64,long)" (__imp_?set@ACE_Time_Value@@QAEX_JJ@Z)
+transaction.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Time_Value::~ACE_Time_Value(void)" (__imp_??1ACE_Time_Value@@UAE@XZ)
+..\..\lib\asnmp.dll : fatal error LNK1120: 43 externes non résolus

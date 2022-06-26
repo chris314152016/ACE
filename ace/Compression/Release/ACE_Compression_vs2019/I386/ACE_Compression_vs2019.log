@@ -1,0 +1,7 @@
+﻿  Compressor.cpp
+     Création de la bibliothèque ..\..\lib\ACE_Compression.lib et de l'objet ..\..\lib\ACE_Compression.exp
+Compressor.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Thread_Mutex::~ACE_Thread_Mutex(void)" (__imp_??1ACE_Thread_Mutex@@QAE@XZ)
+Compressor.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Thread_Mutex::ACE_Thread_Mutex(char const *,struct ACE_mutexattr_t *)" (__imp_??0ACE_Thread_Mutex@@QAE@PBDPAUACE_mutexattr_t@@@Z)
+Compressor.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Thread_Mutex::release(void)" (__imp_?release@ACE_Thread_Mutex@@QAEHXZ)
+Compressor.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Thread_Mutex::acquire(void)" (__imp_?acquire@ACE_Thread_Mutex@@QAEHXZ)
+..\..\lib\ACE_Compression.dll : fatal error LNK1120: 4 externes non résolus

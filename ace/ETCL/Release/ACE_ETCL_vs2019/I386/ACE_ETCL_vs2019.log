@@ -1,0 +1,10 @@
+﻿  ETCL_Constraint.cpp
+  ETCL_Constraint_Visitor.cpp
+     Création de la bibliothèque ..\..\lib\ACE_ETCL.lib et de l'objet ..\..\lib\ACE_ETCL.exp
+ETCL_Constraint.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) char * __cdecl ACE::strnew(char const *)" (__imp_?strnew@ACE@@YAPADPBD@Z)
+ETCL_Constraint.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: char const * __thiscall ACE_String_Base<char>::c_str(void)const " (__imp_?c_str@?$ACE_String_Base@D@@QBEPBDXZ)
+ETCL_Constraint.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_String_Base<char> & __thiscall ACE_String_Base<char>::operator=(class ACE_String_Base<char> const &)" (__imp_??4?$ACE_String_Base@D@@QAEAAV0@ABV0@@Z)
+ETCL_Constraint.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_String_Base<char>::~ACE_String_Base<char>(void)" (__imp_??1?$ACE_String_Base@D@@QAE@XZ)
+ETCL_Constraint.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_String_Base<char>::ACE_String_Base<char>(char const *,class ACE_Allocator *,bool)" (__imp_??0?$ACE_String_Base@D@@QAE@PBDPAVACE_Allocator@@_N@Z)
+ETCL_Constraint.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_String_Base<char>::ACE_String_Base<char>(class ACE_String_Base<char> const &)" (__imp_??0?$ACE_String_Base@D@@QAE@ABV0@@Z)
+..\..\lib\ACE_ETCL.dll : fatal error LNK1120: 6 externes non résolus

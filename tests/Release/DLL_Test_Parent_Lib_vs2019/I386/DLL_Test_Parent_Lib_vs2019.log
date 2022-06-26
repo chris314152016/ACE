@@ -1,0 +1,7 @@
+﻿  DLL_Test_Parent.cpp
+     Création de la bibliothèque .\DLL_Test_Parent.lib et de l'objet .\DLL_Test_Parent.exp
+DLL_Test_Parent.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __cdecl ACE_Log_Msg::log(enum ACE_Log_Priority,char const *,...)" (__imp_?log@ACE_Log_Msg@@QAAHW4ACE_Log_Priority@@PBDZZ)
+DLL_Test_Parent.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Log_Msg::conditional_set(char const *,int,int,int)" (__imp_?conditional_set@ACE_Log_Msg@@QAEXPBDHHH@Z)
+DLL_Test_Parent.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Log_Msg::last_error_adapter(void)" (__imp_?last_error_adapter@ACE_Log_Msg@@SAHXZ)
+DLL_Test_Parent.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Log_Msg * __cdecl ACE_Log_Msg::instance(void)" (__imp_?instance@ACE_Log_Msg@@SAPAV1@XZ)
+.\DLL_Test_Parent.dll : fatal error LNK1120: 4 externes non résolus

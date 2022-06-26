@@ -1,0 +1,23 @@
+﻿  Bug_2980_Regression_Dll.cpp
+  Test_Output.cpp
+     Création de la bibliothèque .\Bug_2980_Regression.lib et de l'objet .\Bug_2980_Regression.exp
+Bug_2980_Regression_Dll.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) int __cdecl ACE::fini(void)" (__imp_?fini@ACE@@YAHXZ)
+Bug_2980_Regression_Dll.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) int __cdecl ACE::init(void)" (__imp_?init@ACE@@YAHXZ)
+Bug_2980_Regression_Dll.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __cdecl ACE_Log_Msg::log(enum ACE_Log_Priority,char const *,...)" (__imp_?log@ACE_Log_Msg@@QAAHW4ACE_Log_Priority@@PBDZZ)
+Bug_2980_Regression_Dll.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Log_Msg::conditional_set(char const *,int,int,int)" (__imp_?conditional_set@ACE_Log_Msg@@QAEXPBDHHH@Z)
+Bug_2980_Regression_Dll.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Log_Msg::open(char const *,unsigned long,char const *)" (__imp_?open@ACE_Log_Msg@@QAEHPBDK0@Z)
+Bug_2980_Regression_Dll.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Log_Msg::last_error_adapter(void)" (__imp_?last_error_adapter@ACE_Log_Msg@@SAHXZ)
+Bug_2980_Regression_Dll.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Log_Msg * __cdecl ACE_Log_Msg::instance(void)" (__imp_?instance@ACE_Log_Msg@@SAPAV1@XZ)
+Test_Output.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) protected: virtual __thiscall ACE_Framework_Component::~ACE_Framework_Component(void)" (__imp_??1ACE_Framework_Component@@MAE@XZ)
+Test_Output.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) char const * __cdecl ACE::basename(char const *,char)" (__imp_?basename@ACE@@YAPBDPBDD@Z)
+Test_Output.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Log_Msg::msg_ostream(class std::basic_ostream<char,struct std::char_traits<char> > *,bool)" (__imp_?msg_ostream@ACE_Log_Msg@@QAEXPAV?$basic_ostream@DU?$char_traits@D@std@@@std@@_N@Z)
+Test_Output.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Log_Msg::clr_flags(unsigned long)" (__imp_?clr_flags@ACE_Log_Msg@@QAEXK@Z)
+Test_Output.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Log_Msg::set_flags(unsigned long)" (__imp_?set_flags@ACE_Log_Msg@@QAEXK@Z)
+Test_Output.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Recursive_Thread_Mutex * __cdecl ACE_Static_Object_Lock::instance(void)" (__imp_?instance@ACE_Static_Object_Lock@@SAPAVACE_Recursive_Thread_Mutex@@XZ)
+Test_Output.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Framework_Repository::register_component(class ACE_Framework_Component *)" (__imp_?register_component@ACE_Framework_Repository@@QAEHPAVACE_Framework_Component@@@Z)
+Test_Output.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Framework_Repository * __cdecl ACE_Framework_Repository::instance(int)" (__imp_?instance@ACE_Framework_Repository@@SAPAV1@H@Z)
+Test_Output.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Framework_Component::ACE_Framework_Component(void *,char const *,char const *)" (__imp_??0ACE_Framework_Component@@QAE@PAXPBD1@Z)
+Test_Output.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Recursive_Thread_Mutex::release(void)" (__imp_?release@ACE_Recursive_Thread_Mutex@@QAEHXZ)
+Test_Output.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Recursive_Thread_Mutex::acquire(void)" (__imp_?acquire@ACE_Recursive_Thread_Mutex@@QAEHXZ)
+Test_Output.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > * __thiscall ACE_Log_Msg::msg_ostream(void)const " (__imp_?msg_ostream@ACE_Log_Msg@@QBEPAV?$basic_ostream@DU?$char_traits@D@std@@@std@@XZ)
+.\Bug_2980_Regression.dll : fatal error LNK1120: 19 externes non résolus

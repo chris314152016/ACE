@@ -1,0 +1,39 @@
+﻿  Bool_Array.cpp
+  Gen_Perf.cpp
+  Hash_Table.cpp
+  Iterator.cpp
+  Key_List.cpp
+  List_Node.cpp
+  Options.cpp
+  Vectors.cpp
+  Version.cpp
+  gperf.cpp
+Bool_Array.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __cdecl ACE_Log_Msg::log(enum ACE_Log_Priority,char const *,...)" (__imp_?log@ACE_Log_Msg@@QAAHW4ACE_Log_Priority@@PBDZZ)
+Bool_Array.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Log_Msg::conditional_set(char const *,int,int,int)" (__imp_?conditional_set@ACE_Log_Msg@@QAEXPBDHHH@Z)
+Bool_Array.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Log_Msg::last_error_adapter(void)" (__imp_?last_error_adapter@ACE_Log_Msg@@SAHXZ)
+Bool_Array.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Log_Msg * __cdecl ACE_Log_Msg::instance(void)" (__imp_?instance@ACE_Log_Msg@@SAPAV1@XZ)
+Gen_Perf.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Copy_Disabled::ACE_Copy_Disabled(void)" (__imp_??0ACE_Copy_Disabled@@QAE@XZ)
+Gen_Perf.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) int __cdecl ACE_OS::printf(char const *,...)" (__imp_?printf@ACE_OS@@YAHPBDZZ)
+Hash_Table.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) unsigned long __cdecl ACE::hash_pjw(char const *)" (__imp_?hash_pjw@ACE@@YAKPBD@Z)
+Key_List.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) int __cdecl ACE_OS::sprintf(char *,char const *,...)" (__imp_?sprintf@ACE_OS@@YAHPADPBDZZ)
+Key_List.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: char * __thiscall ACE_Read_Buffer::read(int,int,int)" (__imp_?read@ACE_Read_Buffer@@QAEPADHHH@Z)
+Key_List.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Read_Buffer::~ACE_Read_Buffer(void)" (__imp_??1ACE_Read_Buffer@@QAE@XZ)
+Key_List.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Read_Buffer::ACE_Read_Buffer(struct _iobuf *,bool,class ACE_Allocator *)" (__imp_??0ACE_Read_Buffer@@QAE@PAU_iobuf@@_NPAVACE_Allocator@@@Z)
+Options.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) char const * __cdecl ACE::basename(char const *,char)" (__imp_?basename@ACE@@YAPBDPBDD@Z)
+Options.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: char const * __thiscall ACE_Get_Opt::last_option(void)const " (__imp_?last_option@ACE_Get_Opt@@QBEPBDXZ)
+Options.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Get_Opt::operator()(void)" (__imp_??RACE_Get_Opt@@QAEHXZ)
+Options.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Get_Opt::~ACE_Get_Opt(void)" (__imp_??1ACE_Get_Opt@@QAE@XZ)
+Options.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Get_Opt::ACE_Get_Opt(int,char * *,char const *,int,int,int,int)" (__imp_??0ACE_Get_Opt@@QAE@HPAPADPBDHHHH@Z)
+Options.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) void __cdecl ACE_OS::exit(int)" (__imp_?exit@ACE_OS@@YAXH@Z)
+Options.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) int __cdecl ACE_OS::fprintf(struct _iobuf *,char const *,...)" (__imp_?fprintf@ACE_OS@@YAHPAU_iobuf@@PBDZZ)
+Options.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Log_Msg::open(char const *,unsigned long,char const *)" (__imp_?open@ACE_Log_Msg@@QAEHPBDK0@Z)
+Options.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: char const * __thiscall ACE_String_Base<char>::c_str(void)const " (__imp_?c_str@?$ACE_String_Base@D@@QBEPBDXZ)
+Options.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_String_Base<char> & __thiscall ACE_String_Base<char>::operator=(char const *)" (__imp_??4?$ACE_String_Base@D@@QAEAAV0@PBD@Z)
+Options.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_String_Base<char>::~ACE_String_Base<char>(void)" (__imp_??1?$ACE_String_Base@D@@QAE@XZ)
+Options.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_String_Base<char>::ACE_String_Base<char>(class ACE_Allocator *)" (__imp_??0?$ACE_String_Base@D@@QAE@PAVACE_Allocator@@@Z)
+Options.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int & __thiscall ACE_Get_Opt::opt_ind(void)" (__imp_?opt_ind@ACE_Get_Opt@@QAEAAHXZ)
+Options.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: char * __thiscall ACE_Get_Opt::opt_arg(void)const " (__imp_?opt_arg@ACE_Get_Opt@@QBEPADXZ)
+gperf.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Main_Base::run(int,char * * const)" (__imp_?run@ACE_Main_Base@@QAEHHQAPAD@Z)
+gperf.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Main_Base::~ACE_Main_Base(void)" (__imp_??1ACE_Main_Base@@UAE@XZ)
+gperf.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Main_Base::ACE_Main_Base(void)" (__imp_??0ACE_Main_Base@@QAE@XZ)
+..\..\..\bin\ace_gperf.exe : fatal error LNK1120: 28 externes non résolus

@@ -1,0 +1,7 @@
+﻿  Based_Pointer_Test_Lib.cpp
+     Création de la bibliothèque .\Based_Pointer_Test_Lib.lib et de l'objet .\Based_Pointer_Test_Lib.exp
+  Génération de code en cours
+  Previous IPDB not found, fall back to full compilation.
+  All 4910 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Fin de la génération du code
+  Based_Pointer_Test_Lib_vs2019.vcxproj -> C:\_dev\git\ACE_wrappers\tests\Based_Pointer_Test_Lib.dll

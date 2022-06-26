@@ -1,0 +1,16 @@
+﻿  Test_Output.cpp
+     Création de la bibliothèque .\Test_Output.lib et de l'objet .\Test_Output.exp
+Test_Output.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) protected: virtual __thiscall ACE_Framework_Component::~ACE_Framework_Component(void)" (__imp_??1ACE_Framework_Component@@MAE@XZ)
+Test_Output.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) char const * __cdecl ACE::basename(char const *,char)" (__imp_?basename@ACE@@YAPBDPBDD@Z)
+Test_Output.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Log_Msg::msg_ostream(class std::basic_ostream<char,struct std::char_traits<char> > *,bool)" (__imp_?msg_ostream@ACE_Log_Msg@@QAEXPAV?$basic_ostream@DU?$char_traits@D@std@@@std@@_N@Z)
+Test_Output.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Log_Msg::clr_flags(unsigned long)" (__imp_?clr_flags@ACE_Log_Msg@@QAEXK@Z)
+Test_Output.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Log_Msg::set_flags(unsigned long)" (__imp_?set_flags@ACE_Log_Msg@@QAEXK@Z)
+Test_Output.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Log_Msg * __cdecl ACE_Log_Msg::instance(void)" (__imp_?instance@ACE_Log_Msg@@SAPAV1@XZ)
+Test_Output.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Recursive_Thread_Mutex * __cdecl ACE_Static_Object_Lock::instance(void)" (__imp_?instance@ACE_Static_Object_Lock@@SAPAVACE_Recursive_Thread_Mutex@@XZ)
+Test_Output.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Framework_Repository::register_component(class ACE_Framework_Component *)" (__imp_?register_component@ACE_Framework_Repository@@QAEHPAVACE_Framework_Component@@@Z)
+Test_Output.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Framework_Repository * __cdecl ACE_Framework_Repository::instance(int)" (__imp_?instance@ACE_Framework_Repository@@SAPAV1@H@Z)
+Test_Output.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Framework_Component::ACE_Framework_Component(void *,char const *,char const *)" (__imp_??0ACE_Framework_Component@@QAE@PAXPBD1@Z)
+Test_Output.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Recursive_Thread_Mutex::release(void)" (__imp_?release@ACE_Recursive_Thread_Mutex@@QAEHXZ)
+Test_Output.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Recursive_Thread_Mutex::acquire(void)" (__imp_?acquire@ACE_Recursive_Thread_Mutex@@QAEHXZ)
+Test_Output.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > * __thiscall ACE_Log_Msg::msg_ostream(void)const " (__imp_?msg_ostream@ACE_Log_Msg@@QBEPAV?$basic_ostream@DU?$char_traits@D@std@@@std@@XZ)
+.\Test_Output.dll : fatal error LNK1120: 13 externes non résolus

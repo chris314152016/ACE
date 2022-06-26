@@ -1,0 +1,18 @@
+﻿  NPClient.cpp
+NPClient.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_SPIPE_Addr::ACE_SPIPE_Addr(char const *,long,long)" (__imp_??0ACE_SPIPE_Addr@@QAE@PBDJJ@Z)
+NPClient.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_SPIPE_Connector::connect(class ACE_SPIPE_Stream &,class ACE_SPIPE_Addr const &,class ACE_Time_Value *,class ACE_Addr const &,int,int,int,struct _SECURITY_ATTRIBUTES *,int)" (__imp_?connect@ACE_SPIPE_Connector@@QAEHAAVACE_SPIPE_Stream@@ABVACE_SPIPE_Addr@@PAVACE_Time_Value@@ABVACE_Addr@@HHHPAU_SECURITY_ATTRIBUTES@@H@Z)
+NPClient.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_SPIPE_Connector::ACE_SPIPE_Connector(void)" (__imp_??0ACE_SPIPE_Connector@@QAE@XZ)
+NPClient.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Main_Base::run(int,char * * const)" (__imp_?run@ACE_Main_Base@@QAEHHQAPAD@Z)
+NPClient.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Main_Base::~ACE_Main_Base(void)" (__imp_??1ACE_Main_Base@@UAE@XZ)
+NPClient.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Main_Base::ACE_Main_Base(void)" (__imp_??0ACE_Main_Base@@QAE@XZ)
+NPClient.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_SPIPE_Stream::ACE_SPIPE_Stream(void)" (__imp_??0ACE_SPIPE_Stream@@QAE@XZ)
+NPClient.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __cdecl ACE_Log_Msg::log(enum ACE_Log_Priority,char const *,...)" (__imp_?log@ACE_Log_Msg@@QAAHW4ACE_Log_Priority@@PBDZZ)
+NPClient.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Log_Msg::conditional_set(char const *,int,int,int)" (__imp_?conditional_set@ACE_Log_Msg@@QAEXPBDHHH@Z)
+NPClient.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Log_Msg::last_error_adapter(void)" (__imp_?last_error_adapter@ACE_Log_Msg@@SAHXZ)
+NPClient.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Log_Msg * __cdecl ACE_Log_Msg::instance(void)" (__imp_?instance@ACE_Log_Msg@@SAPAV1@XZ)
+NPClient.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Addr const ACE_Addr::sap_any" (__imp_?sap_any@ACE_Addr@@2V1@B)
+NPClient.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_SPIPE::close(void)" (__imp_?close@ACE_SPIPE@@QAEHXZ)
+NPClient.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_SPIPE_Addr::~ACE_SPIPE_Addr(void)" (__imp_??1ACE_SPIPE_Addr@@UAE@XZ)
+NPClient.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_SPIPE_Stream::~ACE_SPIPE_Stream(void)" (__imp_??1ACE_SPIPE_Stream@@QAE@XZ)
+NPClient.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_SPIPE_Stream::send(void const *,unsigned int)const " (__imp_?send@ACE_SPIPE_Stream@@QBEHPBXI@Z)
+Release\NPClient.exe : fatal error LNK1120: 16 externes non résolus

@@ -1,0 +1,13 @@
+﻿  RLECompressor.cpp
+     Création de la bibliothèque ..\..\..\lib\ACE_RLECompression.lib et de l'objet ..\..\..\lib\ACE_RLECompression.exp
+RLECompressor.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) const ACE_Cleanup::`vftable'" (__imp_??_7ACE_Cleanup@@6B@)
+RLECompressor.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Cleanup::~ACE_Cleanup(void)" (__imp_??1ACE_Cleanup@@UAE@XZ)
+RLECompressor.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Object_Manager::get_singleton_lock(class ACE_Thread_Mutex * &)" (__imp_?get_singleton_lock@ACE_Object_Manager@@SAHAAPAVACE_Thread_Mutex@@@Z)
+RLECompressor.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Object_Manager::shutting_down(void)" (__imp_?shutting_down@ACE_Object_Manager@@SAHXZ)
+RLECompressor.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Object_Manager::starting_up(void)" (__imp_?starting_up@ACE_Object_Manager@@SAHXZ)
+RLECompressor.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Object_Manager::remove_at_exit(void *)" (__imp_?remove_at_exit@ACE_Object_Manager@@SAHPAX@Z)
+RLECompressor.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Object_Manager::at_exit(class ACE_Cleanup *,void *,char const *)" (__imp_?at_exit@ACE_Object_Manager@@SAHPAVACE_Cleanup@@PAXPBD@Z)
+RLECompressor.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Thread_Mutex::release(void)" (__imp_?release@ACE_Thread_Mutex@@QAEHXZ)
+RLECompressor.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Thread_Mutex::acquire(void)" (__imp_?acquire@ACE_Thread_Mutex@@QAEHXZ)
+RLECompressor.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Cleanup::ACE_Cleanup(void)" (__imp_??0ACE_Cleanup@@QAE@XZ)
+..\..\..\lib\ACE_RLECompression.dll : fatal error LNK1120: 10 externes non résolus

@@ -1,0 +1,8 @@
+﻿  Print_Handler.cpp
+  SAXPrint_Handler.cpp
+  main.cpp
+  Génération de code en cours
+  Previous IPDB not found, fall back to full compilation.
+  All 65 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Fin de la génération du code
+  SAXPrint_vs2019.vcxproj -> C:\_dev\git\ACE_wrappers\ACEXML\examples\SAXPrint\Release\SAXPrint.exe

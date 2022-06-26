@@ -1,0 +1,30 @@
+﻿  Main.cpp
+  Multicast_Interfaces_Test.cpp
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Main_Base::run(int,char * * const)" (__imp_?run@ACE_Main_Base@@QAEHHQAPAD@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Main_Base::~ACE_Main_Base(void)" (__imp_??1ACE_Main_Base@@UAE@XZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Main_Base::ACE_Main_Base(void)" (__imp_??0ACE_Main_Base@@QAE@XZ)
+Multicast_Interfaces_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_INET_Addr::~ACE_INET_Addr(void)" (__imp_??1ACE_INET_Addr@@UAE@XZ)
+Multicast_Interfaces_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_INET_Addr::ACE_INET_Addr(char const * const,int)" (__imp_??0ACE_INET_Addr@@QAE@QBDH@Z)
+Multicast_Interfaces_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_SOCK_Dgram_Mcast::join(class ACE_INET_Addr const &,int,char const *)" (__imp_?join@ACE_SOCK_Dgram_Mcast@@QAEHABVACE_INET_Addr@@HPBD@Z)
+Multicast_Interfaces_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_SOCK_Dgram_Mcast::~ACE_SOCK_Dgram_Mcast(void)" (__imp_??1ACE_SOCK_Dgram_Mcast@@QAE@XZ)
+Multicast_Interfaces_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_SOCK_Dgram_Mcast::ACE_SOCK_Dgram_Mcast(enum ACE_SOCK_Dgram_Mcast::options)" (__imp_??0ACE_SOCK_Dgram_Mcast@@QAE@W4options@0@@Z)
+Multicast_Interfaces_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_SOCK::close(void)" (__imp_?close@ACE_SOCK@@QAEHXZ)
+    Conseil sur les symboles définis et susceptibles de correspondre :
+      "__declspec(dllimport) public: void __thiscall ACE_Test_Output::close(void)" (__imp_?close@ACE_Test_Output@@QAEXXZ)
+Multicast_Interfaces_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) int __cdecl ACE_OS::uname(struct ACE_utsname *)" (__imp_?uname@ACE_OS@@YAHPAUACE_utsname@@@Z)
+Multicast_Interfaces_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __cdecl ACE_Log_Msg::log(enum ACE_Log_Priority,char const *,...)" (__imp_?log@ACE_Log_Msg@@QAAHW4ACE_Log_Priority@@PBDZZ)
+Multicast_Interfaces_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Log_Msg::conditional_set(char const *,int,int,int)" (__imp_?conditional_set@ACE_Log_Msg@@QAEXPBDHHH@Z)
+Multicast_Interfaces_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Log_Msg::open(char const *,unsigned long,char const *)" (__imp_?open@ACE_Log_Msg@@QAEHPBDK0@Z)
+Multicast_Interfaces_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Log_Msg::last_error_adapter(void)" (__imp_?last_error_adapter@ACE_Log_Msg@@SAHXZ)
+Multicast_Interfaces_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Log_Msg * __cdecl ACE_Log_Msg::instance(void)" (__imp_?instance@ACE_Log_Msg@@SAPAV1@XZ)
+    Conseil sur les symboles définis et susceptibles de correspondre :
+      "__declspec(dllimport) public: static class ACE_Test_Output * __cdecl ACE_Test_Output::instance(void)" (__imp_?instance@ACE_Test_Output@@SAPAV1@XZ)
+Multicast_Interfaces_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: bool __thiscall ACE_String_Base<char>::operator<(class ACE_String_Base<char> const &)const " (__imp_??M?$ACE_String_Base@D@@QBE_NABV0@@Z)
+Multicast_Interfaces_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: char const * __thiscall ACE_String_Base<char>::c_str(void)const " (__imp_?c_str@?$ACE_String_Base@D@@QBEPBDXZ)
+Multicast_Interfaces_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: bool __thiscall ACE_String_Base<char>::empty(void)const " (__imp_?empty@?$ACE_String_Base@D@@QBE_NXZ)
+Multicast_Interfaces_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_String_Base<char>::~ACE_String_Base<char>(void)" (__imp_??1?$ACE_String_Base@D@@QAE@XZ)
+Multicast_Interfaces_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_String_Base<char>::ACE_String_Base<char>(class ACE_Allocator *)" (__imp_??0?$ACE_String_Base@D@@QAE@PAVACE_Allocator@@@Z)
+Multicast_Interfaces_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_String_Base<char>::ACE_String_Base<char>(char const *,class ACE_Allocator *,bool)" (__imp_??0?$ACE_String_Base@D@@QAE@PBDPAVACE_Allocator@@_N@Z)
+Multicast_Interfaces_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_String_Base<char>::ACE_String_Base<char>(class ACE_String_Base<char> const &)" (__imp_??0?$ACE_String_Base@D@@QAE@ABV0@@Z)
+Multicast_Interfaces_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_SOCK_Dgram_Mcast::opts(int)" (__imp_?opts@ACE_SOCK_Dgram_Mcast@@QAEXH@Z)
+Release\Multicast_Interfaces_Test.exe : fatal error LNK1120: 23 externes non résolus

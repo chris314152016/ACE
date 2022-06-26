@@ -1,0 +1,6 @@
+^C:\_DEV\GIT\ACE_WRAPPERS\APPS\GPERF\TESTS\IDL.GPERF
+setlocal
+PATH=%PATH%;..\..\..\lib
+if not exist iout2_gen mkdir iout2_gen
+cmd /c "..\..\..\bin\ace_gperf -m -M -c -C -D -E -T -a -o -p "idl.gperf" > "iout2_gen\idl.cpp""
+endlocal

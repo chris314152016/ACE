@@ -1,0 +1,17 @@
+﻿  test_open.cpp
+test_open.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Naming_Context::bind(char const *,char const *,char const *)" (__imp_?bind@ACE_Naming_Context@@QAEHPBD00@Z)
+test_open.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_Name_Options * __thiscall ACE_Naming_Context::name_options(void)" (__imp_?name_options@ACE_Naming_Context@@QAEPAVACE_Name_Options@@XZ)
+test_open.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Naming_Context::~ACE_Naming_Context(void)" (__imp_??1ACE_Naming_Context@@UAE@XZ)
+test_open.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Naming_Context::close(void)" (__imp_?close@ACE_Naming_Context@@QAEHXZ)
+test_open.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Naming_Context::open(enum ACE_Naming_Context::Context_Scope_Type,int)" (__imp_?open@ACE_Naming_Context@@QAEHW4Context_Scope_Type@1@H@Z)
+test_open.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Naming_Context::ACE_Naming_Context(void)" (__imp_??0ACE_Naming_Context@@QAE@XZ)
+test_open.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) int __cdecl ACE_OS::sprintf(char *,char const *,...)" (__imp_?sprintf@ACE_OS@@YAHPADPBDZZ)
+test_open.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Main_Base::run(int,char * * const)" (__imp_?run@ACE_Main_Base@@QAEHHQAPAD@Z)
+test_open.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Main_Base::~ACE_Main_Base(void)" (__imp_??1ACE_Main_Base@@UAE@XZ)
+test_open.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Main_Base::ACE_Main_Base(void)" (__imp_??0ACE_Main_Base@@QAE@XZ)
+test_open.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __cdecl ACE_Log_Msg::log(enum ACE_Log_Priority,char const *,...)" (__imp_?log@ACE_Log_Msg@@QAAHW4ACE_Log_Priority@@PBDZZ)
+test_open.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Log_Msg::conditional_set(char const *,int,int,int)" (__imp_?conditional_set@ACE_Log_Msg@@QAEXPBDHHH@Z)
+test_open.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Log_Msg::last_error_adapter(void)" (__imp_?last_error_adapter@ACE_Log_Msg@@SAHXZ)
+test_open.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Log_Msg * __cdecl ACE_Log_Msg::instance(void)" (__imp_?instance@ACE_Log_Msg@@SAPAV1@XZ)
+test_open.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Name_Options::parse_args(int,char * * const)" (__imp_?parse_args@ACE_Name_Options@@QAEXHQAPAD@Z)
+Release\open.exe : fatal error LNK1120: 15 externes non résolus

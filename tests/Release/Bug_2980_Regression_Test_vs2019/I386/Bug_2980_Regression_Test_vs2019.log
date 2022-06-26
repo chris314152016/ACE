@@ -1,0 +1,6 @@
+﻿  Bug_2980_Regression_Test.cpp
+  Génération de code en cours
+  Previous IPDB not found, fall back to full compilation.
+  All 4 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Fin de la génération du code
+  Bug_2980_Regression_Test_vs2019.vcxproj -> C:\_dev\git\ACE_wrappers\tests\Release\Bug_2980_Regression_Test.exe

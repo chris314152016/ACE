@@ -1,0 +1,5 @@
+^C:\_DEV\GIT\ACE_WRAPPERS\APPS\GPERF\TESTS\IDL.GPERF
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c "..\..\..\bin\ace_gperf -m -M -c -C -D -S1 -E -T -a -o -p "idl.gperf" > "idl.cpp""
+endlocal

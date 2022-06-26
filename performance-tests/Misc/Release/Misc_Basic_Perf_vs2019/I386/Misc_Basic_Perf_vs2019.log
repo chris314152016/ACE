@@ -1,0 +1,23 @@
+﻿  basic_func.cpp
+  basic_perf.cpp
+basic_perf.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Get_Opt::operator()(void)" (__imp_??RACE_Get_Opt@@QAEHXZ)
+basic_perf.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Get_Opt::~ACE_Get_Opt(void)" (__imp_??1ACE_Get_Opt@@QAE@XZ)
+basic_perf.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Get_Opt::ACE_Get_Opt(int,char * *,char const *,int,int,int,int)" (__imp_??0ACE_Get_Opt@@QAE@HPAPADPBDHHHH@Z)
+basic_perf.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) void __cdecl ACE_OS::exit(int)" (__imp_?exit@ACE_OS@@YAXH@Z)
+basic_perf.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) int __cdecl ACE_OS::uname(struct ACE_utsname *)" (__imp_?uname@ACE_OS@@YAHPAUACE_utsname@@@Z)
+basic_perf.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Main_Base::run(int,char * * const)" (__imp_?run@ACE_Main_Base@@QAEHHQAPAD@Z)
+basic_perf.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Main_Base::~ACE_Main_Base(void)" (__imp_??1ACE_Main_Base@@UAE@XZ)
+basic_perf.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Main_Base::ACE_Main_Base(void)" (__imp_??0ACE_Main_Base@@QAE@XZ)
+basic_perf.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_High_Res_Timer::elapsed_time(unsigned __int64 &)const " (__imp_?elapsed_time@ACE_High_Res_Timer@@QBEXAA_K@Z)
+basic_perf.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_High_Res_Timer::reset(void)" (__imp_?reset@ACE_High_Res_Timer@@QAEXXZ)
+basic_perf.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_High_Res_Timer::ACE_High_Res_Timer(void)" (__imp_??0ACE_High_Res_Timer@@QAE@XZ)
+basic_perf.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __cdecl ACE_Log_Msg::log(enum ACE_Log_Priority,char const *,...)" (__imp_?log@ACE_Log_Msg@@QAAHW4ACE_Log_Priority@@PBDZZ)
+basic_perf.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Log_Msg::conditional_set(char const *,int,int,int)" (__imp_?conditional_set@ACE_Log_Msg@@QAEXPBDHHH@Z)
+basic_perf.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Log_Msg::last_error_adapter(void)" (__imp_?last_error_adapter@ACE_Log_Msg@@SAHXZ)
+basic_perf.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Log_Msg * __cdecl ACE_Log_Msg::instance(void)" (__imp_?instance@ACE_Log_Msg@@SAPAV1@XZ)
+basic_perf.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int & __thiscall ACE_Get_Opt::opt_ind(void)" (__imp_?opt_ind@ACE_Get_Opt@@QAEAAHXZ)
+basic_perf.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: char * __thiscall ACE_Get_Opt::opt_arg(void)const " (__imp_?opt_arg@ACE_Get_Opt@@QBEPADXZ)
+basic_perf.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_High_Res_Timer::stop(enum ACE_OS::ACE_HRTimer_Op)" (__imp_?stop@ACE_High_Res_Timer@@QAEXW4ACE_HRTimer_Op@ACE_OS@@@Z)
+basic_perf.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_High_Res_Timer::start(enum ACE_OS::ACE_HRTimer_Op)" (__imp_?start@ACE_High_Res_Timer@@QAEXW4ACE_HRTimer_Op@ACE_OS@@@Z)
+basic_perf.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_High_Res_Timer::~ACE_High_Res_Timer(void)" (__imp_??1ACE_High_Res_Timer@@QAE@XZ)
+Release\basic_perf.exe : fatal error LNK1120: 20 externes non résolus

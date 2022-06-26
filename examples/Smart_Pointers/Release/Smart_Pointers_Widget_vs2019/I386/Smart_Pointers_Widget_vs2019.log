@@ -1,0 +1,24 @@
+﻿  Widget.cpp
+  Widget_Factory.cpp
+  Widget_Impl.cpp
+  Widget_Part.cpp
+  Widget_Part_Factory.cpp
+  Widget_Part_Impl.cpp
+  widget_test.cpp
+Widget_Impl.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __cdecl ACE_Log_Msg::log(enum ACE_Log_Priority,char const *,...)" (__imp_?log@ACE_Log_Msg@@QAAHW4ACE_Log_Priority@@PBDZZ)
+Widget_Impl.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Log_Msg::conditional_set(char const *,int,int,int)" (__imp_?conditional_set@ACE_Log_Msg@@QAEXPBDHHH@Z)
+Widget_Impl.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Log_Msg::last_error_adapter(void)" (__imp_?last_error_adapter@ACE_Log_Msg@@SAHXZ)
+Widget_Impl.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Log_Msg * __cdecl ACE_Log_Msg::instance(void)" (__imp_?instance@ACE_Log_Msg@@SAPAV1@XZ)
+Widget_Impl.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Allocator * __cdecl ACE_Allocator::instance(void)" (__imp_?instance@ACE_Allocator@@SAPAV1@XZ)
+Widget_Impl.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: long __thiscall ACE_Atomic_Op<class ACE_Thread_Mutex,long>::operator--(int)" (__imp_??F?$ACE_Atomic_Op@VACE_Thread_Mutex@@J@@QAEJH@Z)
+Widget_Impl.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: long __thiscall ACE_Atomic_Op<class ACE_Thread_Mutex,long>::operator--(void)" (__imp_??F?$ACE_Atomic_Op@VACE_Thread_Mutex@@J@@QAEJXZ)
+Widget_Impl.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: long __thiscall ACE_Atomic_Op<class ACE_Thread_Mutex,long>::operator++(void)" (__imp_??E?$ACE_Atomic_Op@VACE_Thread_Mutex@@J@@QAEJXZ)
+Widget_Impl.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Atomic_Op<class ACE_Thread_Mutex,long>::ACE_Atomic_Op<class ACE_Thread_Mutex,long>(long)" (__imp_??0?$ACE_Atomic_Op@VACE_Thread_Mutex@@J@@QAE@J@Z)
+Widget_Part_Impl.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) char * __cdecl ACE::strnew(char const *)" (__imp_?strnew@ACE@@YAPADPBD@Z)
+Widget_Part_Impl.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Guard<class ACE_Null_Mutex>::locked(void)" (__imp_?locked@?$ACE_Guard@VACE_Null_Mutex@@@@QAEHXZ)
+Widget_Part_Impl.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Guard<class ACE_Null_Mutex>::ACE_Guard<class ACE_Null_Mutex>(class ACE_Null_Mutex &)" (__imp_??0?$ACE_Guard@VACE_Null_Mutex@@@@QAE@AAVACE_Null_Mutex@@@Z)
+Widget_Part_Impl.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Null_Mutex::ACE_Null_Mutex(char const *)" (__imp_??0ACE_Null_Mutex@@QAE@PBD@Z)
+widget_test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Main_Base::run(int,char * * const)" (__imp_?run@ACE_Main_Base@@QAEHHQAPAD@Z)
+widget_test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Main_Base::~ACE_Main_Base(void)" (__imp_??1ACE_Main_Base@@UAE@XZ)
+widget_test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Main_Base::ACE_Main_Base(void)" (__imp_??0ACE_Main_Base@@QAE@XZ)
+Release\Widget.exe : fatal error LNK1120: 16 externes non résolus

@@ -1,0 +1,16 @@
+﻿  Entity_Manager.cpp
+  Parser.cpp
+  ParserContext.cpp
+  ParserInternals.cpp
+     Création de la bibliothèque ..\..\..\lib\ACEXML_Parser.lib et de l'objet ..\..\..\lib\ACEXML_Parser.exp
+  Génération de code en cours
+  Previous IPDB not found, fall back to full compilation.
+  All 5006 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Fin de la génération du code
+LINK : warning LNK4286: le symbole '?instance@ACE_Allocator@@SAPAV1@XZ (public: static class ACE_Allocator * __cdecl ACE_Allocator::instance(void))' défini dans 'ACE.lib(Malloc_Allocator.obj)' est importé par 'Entity_Manager.obj'
+LINK : warning LNK4286: le symbole '?last_error_adapter@ACE_Log_Msg@@SAHXZ (public: static int __cdecl ACE_Log_Msg::last_error_adapter(void))' défini dans 'ACE.lib(Log_Msg.obj)' est importé par 'Entity_Manager.obj'
+LINK : warning LNK4286: le symbole '?per_thr_obj@ACE_Log_Category@@QAEPAVACE_Log_Category_TSS@@XZ (public: class ACE_Log_Category_TSS * __thiscall ACE_Log_Category::per_thr_obj(void))' défini dans 'ACE.lib(Log_Category.obj)' est importé par 'Entity_Manager.obj'
+LINK : warning LNK4286: le symbole '?ace_lib@ACE_Log_Category@@SAAAV1@XZ (public: static class ACE_Log_Category & __cdecl ACE_Log_Category::ace_lib(void))' défini dans 'ACE.lib(Log_Category.obj)' est importé par 'Entity_Manager.obj'
+LINK : warning LNK4286: le symbole '?instance@ACE_Log_Msg@@SAPAV1@XZ (public: static class ACE_Log_Msg * __cdecl ACE_Log_Msg::instance(void))' défini dans 'ACE.lib(Log_Msg.obj)' est importé par 'Parser.obj'
+LINK : warning LNK4286: le symbole '?conditional_set@ACE_Log_Msg@@QAEXPBDHHH@Z (public: void __thiscall ACE_Log_Msg::conditional_set(char const *,int,int,int))' défini dans 'ACE.lib(Log_Msg.obj)' est importé par 'Parser.obj'
+  ACEXML_Parser_vs2019.vcxproj -> C:\_dev\git\ACE_wrappers\lib\ACEXML_Parser.dll

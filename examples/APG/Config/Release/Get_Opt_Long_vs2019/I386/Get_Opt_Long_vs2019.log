@@ -1,0 +1,15 @@
+﻿  Get_Opt_Long.cpp
+Get_Opt_Long.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Get_Opt::long_option(char const *,int,enum ACE_Get_Opt::OPTION_ARG_MODE)" (__imp_?long_option@ACE_Get_Opt@@QAEHPBDHW4OPTION_ARG_MODE@1@@Z)
+Get_Opt_Long.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Get_Opt::operator()(void)" (__imp_??RACE_Get_Opt@@QAEHXZ)
+Get_Opt_Long.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Get_Opt::~ACE_Get_Opt(void)" (__imp_??1ACE_Get_Opt@@QAE@XZ)
+Get_Opt_Long.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Get_Opt::ACE_Get_Opt(int,char * *,char const *,int,int,int,int)" (__imp_??0ACE_Get_Opt@@QAE@HPAPADPBDHHHH@Z)
+Get_Opt_Long.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Main_Base::run(int,char * * const)" (__imp_?run@ACE_Main_Base@@QAEHHQAPAD@Z)
+Get_Opt_Long.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Main_Base::~ACE_Main_Base(void)" (__imp_??1ACE_Main_Base@@UAE@XZ)
+Get_Opt_Long.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Main_Base::ACE_Main_Base(void)" (__imp_??0ACE_Main_Base@@QAE@XZ)
+Get_Opt_Long.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __cdecl ACE_Log_Msg::log(enum ACE_Log_Priority,char const *,...)" (__imp_?log@ACE_Log_Msg@@QAAHW4ACE_Log_Priority@@PBDZZ)
+Get_Opt_Long.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Log_Msg::conditional_set(char const *,int,int,int)" (__imp_?conditional_set@ACE_Log_Msg@@QAEXPBDHHH@Z)
+Get_Opt_Long.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Log_Msg::last_error_adapter(void)" (__imp_?last_error_adapter@ACE_Log_Msg@@SAHXZ)
+Get_Opt_Long.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Log_Msg * __cdecl ACE_Log_Msg::instance(void)" (__imp_?instance@ACE_Log_Msg@@SAPAV1@XZ)
+Get_Opt_Long.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Get_Opt::opt_opt(void)" (__imp_?opt_opt@ACE_Get_Opt@@QAEHXZ)
+Get_Opt_Long.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: char * __thiscall ACE_Get_Opt::opt_arg(void)const " (__imp_?opt_arg@ACE_Get_Opt@@QBEPADXZ)
+Release\Get_Opt_Long.exe : fatal error LNK1120: 13 externes non résolus

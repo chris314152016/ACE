@@ -1,0 +1,11 @@
+﻿  test_read_buffer.cpp
+test_read_buffer.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) void * __cdecl ACE_OS::open(char const *,int,unsigned short,struct _SECURITY_ATTRIBUTES *)" (__imp_?open@ACE_OS@@YAPAXPBDHGPAU_SECURITY_ATTRIBUTES@@@Z)
+test_read_buffer.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Main_Base::run(int,char * * const)" (__imp_?run@ACE_Main_Base@@QAEHHQAPAD@Z)
+test_read_buffer.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Main_Base::~ACE_Main_Base(void)" (__imp_??1ACE_Main_Base@@UAE@XZ)
+test_read_buffer.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Main_Base::ACE_Main_Base(void)" (__imp_??0ACE_Main_Base@@QAE@XZ)
+test_read_buffer.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: char * __thiscall ACE_Read_Buffer::read(int,int,int)" (__imp_?read@ACE_Read_Buffer@@QAEPADHHH@Z)
+test_read_buffer.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Read_Buffer::~ACE_Read_Buffer(void)" (__imp_??1ACE_Read_Buffer@@QAE@XZ)
+test_read_buffer.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Read_Buffer::ACE_Read_Buffer(void *,bool,class ACE_Allocator *)" (__imp_??0ACE_Read_Buffer@@QAE@PAX_NPAVACE_Allocator@@@Z)
+test_read_buffer.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Allocator * __cdecl ACE_Allocator::instance(void)" (__imp_?instance@ACE_Allocator@@SAPAV1@XZ)
+test_read_buffer.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: unsigned int __thiscall ACE_Read_Buffer::size(void)const " (__imp_?size@ACE_Read_Buffer@@QBEIXZ)
+Release\test_read_buffer.exe : fatal error LNK1120: 9 externes non résolus

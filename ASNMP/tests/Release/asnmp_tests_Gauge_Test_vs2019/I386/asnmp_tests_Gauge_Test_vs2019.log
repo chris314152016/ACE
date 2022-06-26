@@ -1,0 +1,15 @@
+﻿  Gauge_Test.cpp
+Gauge_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) char const * __cdecl ACE::basename(char const *,char)" (__imp_?basename@ACE@@YAPBDPBDD@Z)
+Gauge_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) int __cdecl ACE_OS::sprintf(char *,char const *,...)" (__imp_?sprintf@ACE_OS@@YAHPADPBDZZ)
+Gauge_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Main_Base::run(int,char * * const)" (__imp_?run@ACE_Main_Base@@QAEHHQAPAD@Z)
+Gauge_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Main_Base::~ACE_Main_Base(void)" (__imp_??1ACE_Main_Base@@UAE@XZ)
+Gauge_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Main_Base::ACE_Main_Base(void)" (__imp_??0ACE_Main_Base@@QAE@XZ)
+Gauge_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __cdecl ACE_Log_Msg::log(enum ACE_Log_Priority,char const *,...)" (__imp_?log@ACE_Log_Msg@@QAAHW4ACE_Log_Priority@@PBDZZ)
+Gauge_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Log_Msg::conditional_set(char const *,int,int,int)" (__imp_?conditional_set@ACE_Log_Msg@@QAEXPBDHHH@Z)
+Gauge_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Log_Msg::clr_flags(unsigned long)" (__imp_?clr_flags@ACE_Log_Msg@@QAEXK@Z)
+Gauge_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Log_Msg::set_flags(unsigned long)" (__imp_?set_flags@ACE_Log_Msg@@QAEXK@Z)
+Gauge_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Log_Msg::open(char const *,unsigned long,char const *)" (__imp_?open@ACE_Log_Msg@@QAEHPBDK0@Z)
+Gauge_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Log_Msg::last_error_adapter(void)" (__imp_?last_error_adapter@ACE_Log_Msg@@SAHXZ)
+Gauge_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Log_Msg * __cdecl ACE_Log_Msg::instance(void)" (__imp_?instance@ACE_Log_Msg@@SAPAV1@XZ)
+Gauge_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Log_Msg::msg_ostream(class std::basic_ostream<char,struct std::char_traits<char> > *)" (__imp_?msg_ostream@ACE_Log_Msg@@QAEXPAV?$basic_ostream@DU?$char_traits@D@std@@@std@@@Z)
+Release\Gauge_Test.exe : fatal error LNK1120: 13 externes non résolus

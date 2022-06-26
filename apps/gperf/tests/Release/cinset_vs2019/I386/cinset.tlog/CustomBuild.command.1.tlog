@@ -1,0 +1,5 @@
+^C:\_DEV\GIT\ACE_WRAPPERS\APPS\GPERF\TESTS\C.GPERF
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c "..\..\..\bin\ace_gperf -a -p -c -l -S1 -o "c.gperf" > "c.cpp""
+endlocal

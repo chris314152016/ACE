@@ -1,0 +1,29 @@
+﻿  Main.cpp
+  Recursive_Mutex_Test.cpp
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Main_Base::run(int,char * * const)" (__imp_?run@ACE_Main_Base@@QAEHHQAPAD@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Main_Base::~ACE_Main_Base(void)" (__imp_??1ACE_Main_Base@@UAE@XZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Main_Base::ACE_Main_Base(void)" (__imp_??0ACE_Main_Base@@QAE@XZ)
+Recursive_Mutex_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Thread_Manager::wait(class ACE_Time_Value const *,bool,bool)" (__imp_?wait@ACE_Thread_Manager@@QAEHPBVACE_Time_Value@@_N1@Z)
+Recursive_Mutex_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Thread_Manager::spawn_n(unsigned int,unsigned long (__cdecl*)(void *),void *,long,long,int,class ACE_Task_Base *,void * * const,void * * const,unsigned int * const,char const * * const)" (__imp_?spawn_n@ACE_Thread_Manager@@QAEHIP6AKPAX@Z0JJHPAVACE_Task_Base@@QAPAX3QAIQAPBD@Z)
+Recursive_Mutex_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Thread_Manager * __cdecl ACE_Thread_Manager::instance(void)" (__imp_?instance@ACE_Thread_Manager@@SAPAV1@XZ)
+    Conseil sur les symboles définis et susceptibles de correspondre :
+      "__declspec(dllimport) public: static class ACE_Test_Output * __cdecl ACE_Test_Output::instance(void)" (__imp_?instance@ACE_Test_Output@@SAPAV1@XZ)
+Recursive_Mutex_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) void __cdecl __ace_assert(char const *,int,char const *)" (__imp_?__ace_assert@@YAXPBDH0@Z)
+Recursive_Mutex_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Process_Mutex::~ACE_Process_Mutex(void)" (__imp_??1ACE_Process_Mutex@@QAE@XZ)
+Recursive_Mutex_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Process_Mutex::ACE_Process_Mutex(char const *,void *,unsigned short)" (__imp_??0ACE_Process_Mutex@@QAE@PBDPAXG@Z)
+Recursive_Mutex_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __cdecl ACE_Log_Msg::log(enum ACE_Log_Priority,char const *,...)" (__imp_?log@ACE_Log_Msg@@QAAHW4ACE_Log_Priority@@PBDZZ)
+Recursive_Mutex_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Log_Msg::conditional_set(char const *,int,int,int)" (__imp_?conditional_set@ACE_Log_Msg@@QAEXPBDHHH@Z)
+Recursive_Mutex_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Log_Msg::open(char const *,unsigned long,char const *)" (__imp_?open@ACE_Log_Msg@@QAEHPBDK0@Z)
+Recursive_Mutex_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Log_Msg::last_error_adapter(void)" (__imp_?last_error_adapter@ACE_Log_Msg@@SAHXZ)
+Recursive_Mutex_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Log_Msg * __cdecl ACE_Log_Msg::instance(void)" (__imp_?instance@ACE_Log_Msg@@SAPAV1@XZ)
+    Conseil sur les symboles définis et susceptibles de correspondre :
+      "__declspec(dllimport) public: static class ACE_Test_Output * __cdecl ACE_Test_Output::instance(void)" (__imp_?instance@ACE_Test_Output@@SAPAV1@XZ)
+Recursive_Mutex_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Time_Value::ACE_Time_Value(struct _FILETIME const &)" (__imp_??0ACE_Time_Value@@QAE@ABU_FILETIME@@@Z)
+Recursive_Mutex_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Process_Mutex::release(void)" (__imp_?release@ACE_Process_Mutex@@QAEHXZ)
+Recursive_Mutex_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Process_Mutex::acquire(class ACE_Time_Value &)" (__imp_?acquire@ACE_Process_Mutex@@QAEHAAVACE_Time_Value@@@Z)
+Recursive_Mutex_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Process_Mutex::acquire(void)" (__imp_?acquire@ACE_Process_Mutex@@QAEHXZ)
+Recursive_Mutex_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_Time_Value & __thiscall ACE_Time_Value::operator=(class ACE_Time_Value &&)" (__imp_??4ACE_Time_Value@@QAEAAV0@$$QAV0@@Z)
+Recursive_Mutex_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_Time_Value & __thiscall ACE_Time_Value::operator+=(class ACE_Time_Value const &)" (__imp_??YACE_Time_Value@@QAEAAV0@ABV0@@Z)
+Recursive_Mutex_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Time_Value::ACE_Time_Value(__int64,long)" (__imp_??0ACE_Time_Value@@QAE@_JJ@Z)
+Recursive_Mutex_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Time_Value::~ACE_Time_Value(void)" (__imp_??1ACE_Time_Value@@UAE@XZ)
+Release\Recursive_Mutex_Test.exe : fatal error LNK1120: 22 externes non résolus

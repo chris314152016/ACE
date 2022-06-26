@@ -1,0 +1,13 @@
+﻿  Hash_Map.cpp
+     Création de la bibliothèque Release\Hash_Map.lib et de l'objet Release\Hash_Map.exp
+Hash_Map.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_MMAP_Memory_Pool::~ACE_MMAP_Memory_Pool(void)" (__imp_??1ACE_MMAP_Memory_Pool@@UAE@XZ)
+Hash_Map.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_MMAP_Memory_Pool::ACE_MMAP_Memory_Pool(char const *,class ACE_MMAP_Memory_Pool_Options const *)" (__imp_??0ACE_MMAP_Memory_Pool@@QAE@PBDPBVACE_MMAP_Memory_Pool_Options@@@Z)
+Hash_Map.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Process::spawn(class ACE_Process_Options &)" (__imp_?spawn@ACE_Process@@UAEHAAVACE_Process_Options@@@Z)
+Hash_Map.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Process::~ACE_Process(void)" (__imp_??1ACE_Process@@UAE@XZ)
+Hash_Map.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Process::ACE_Process(void)" (__imp_??0ACE_Process@@QAE@XZ)
+Hash_Map.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_MMAP_Memory_Pool_Options::ACE_MMAP_Memory_Pool_Options(void const *,int,bool,unsigned int,unsigned int,bool,struct _SECURITY_ATTRIBUTES *,unsigned short,bool,bool)" (__imp_??0ACE_MMAP_Memory_Pool_Options@@QAE@PBXH_NII1PAU_SECURITY_ATTRIBUTES@@G11@Z)
+Hash_Map.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Process_Options::command_line(char const * const * const)" (__imp_?command_line@ACE_Process_Options@@QAEHQBQBD@Z)
+Hash_Map.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Process_Options::~ACE_Process_Options(void)" (__imp_??1ACE_Process_Options@@QAE@XZ)
+Hash_Map.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Process_Options::ACE_Process_Options(bool,unsigned int,unsigned int,unsigned int,unsigned int)" (__imp_??0ACE_Process_Options@@QAE@_NIIII@Z)
+Hash_Map.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Process::wait(unsigned long *,int)" (__imp_?wait@ACE_Process@@QAEHPAKH@Z)
+Release\Hash_Map.exe : fatal error LNK1120: 10 externes non résolus

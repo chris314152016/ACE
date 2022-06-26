@@ -1,0 +1,24 @@
+﻿  Malloc.cpp
+  Options.cpp
+  test_position_independent_malloc.cpp
+     Création de la bibliothèque Release\posind.lib et de l'objet Release\posind.exp
+Malloc.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Local_Memory_Pool::~ACE_Local_Memory_Pool(void)" (__imp_??1ACE_Local_Memory_Pool@@UAE@XZ)
+Malloc.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Local_Memory_Pool::ACE_Local_Memory_Pool(char const *,class ACE_Local_Memory_Pool_Options const *)" (__imp_??0ACE_Local_Memory_Pool@@QAE@PBDPBVACE_Local_Memory_Pool_Options@@@Z)
+Malloc.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_MMAP_Memory_Pool::~ACE_MMAP_Memory_Pool(void)" (__imp_??1ACE_MMAP_Memory_Pool@@UAE@XZ)
+Malloc.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_MMAP_Memory_Pool::ACE_MMAP_Memory_Pool(char const *,class ACE_MMAP_Memory_Pool_Options const *)" (__imp_??0ACE_MMAP_Memory_Pool@@QAE@PBDPBVACE_MMAP_Memory_Pool_Options@@@Z)
+test_position_independent_malloc.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: char const * __thiscall ACE_PI_Control_Block::ACE_Name_Node::name(void)const " (__imp_?name@ACE_Name_Node@ACE_PI_Control_Block@@QBEPBDXZ)
+    Conseil sur les symboles définis et susceptibles de correspondre :
+      "__declspec(dllimport) public: char const * __thiscall ACE_Control_Block::ACE_Name_Node::name(void)const " (__imp_?name@ACE_Name_Node@ACE_Control_Block@@QBEPBDXZ)
+test_position_independent_malloc.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_PI_Control_Block::ACE_Name_Node::ACE_Name_Node(char const *,char *,char *,class ACE_PI_Control_Block::ACE_Name_Node *)" (__imp_??0ACE_Name_Node@ACE_PI_Control_Block@@QAE@PBDPAD1PAV01@@Z)
+    Conseil sur les symboles définis et susceptibles de correspondre :
+      "__declspec(dllimport) public: __thiscall ACE_Control_Block::ACE_Name_Node::ACE_Name_Node(char const *,char *,char *,class ACE_Control_Block::ACE_Name_Node *)" (__imp_??0ACE_Name_Node@ACE_Control_Block@@QAE@PBDPAD1PAV01@@Z)
+test_position_independent_malloc.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_MMAP_Memory_Pool_Options::ACE_MMAP_Memory_Pool_Options(void const *,int,bool,unsigned int,unsigned int,bool,struct _SECURITY_ATTRIBUTES *,unsigned short,bool,bool)" (__imp_??0ACE_MMAP_Memory_Pool_Options@@QAE@PBXH_NII1PAU_SECURITY_ATTRIBUTES@@G11@Z)
+test_position_independent_malloc.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static void __cdecl ACE_PI_Control_Block::ACE_Name_Node::init_ptr(class ACE_Based_Pointer<class ACE_PI_Control_Block::ACE_Name_Node> *,class ACE_PI_Control_Block::ACE_Name_Node *,void *)" (__imp_?init_ptr@ACE_Name_Node@ACE_PI_Control_Block@@SAXPAV?$ACE_Based_Pointer@VACE_Name_Node@ACE_PI_Control_Block@@@@PAV12@PAX@Z)
+    Conseil sur les symboles définis et susceptibles de correspondre :
+      "__declspec(dllimport) public: static void __cdecl ACE_Control_Block::ACE_Malloc_Header::init_ptr(class ACE_Control_Block::ACE_Malloc_Header * *,class ACE_Control_Block::ACE_Malloc_Header *,void *)" (__imp_?init_ptr@ACE_Malloc_Header@ACE_Control_Block@@SAXPAPAV12@PAV12@PAX@Z)
+      "__declspec(dllimport) public: static void __cdecl ACE_Control_Block::ACE_Name_Node::init_ptr(class ACE_Control_Block::ACE_Name_Node * *,class ACE_Control_Block::ACE_Name_Node *,void *)" (__imp_?init_ptr@ACE_Name_Node@ACE_Control_Block@@SAXPAPAV12@PAV12@PAX@Z)
+test_position_independent_malloc.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static void __cdecl ACE_PI_Control_Block::ACE_Malloc_Header::init_ptr(class ACE_Based_Pointer<class ACE_PI_Control_Block::ACE_Malloc_Header> *,class ACE_PI_Control_Block::ACE_Malloc_Header *,void *)" (__imp_?init_ptr@ACE_Malloc_Header@ACE_PI_Control_Block@@SAXPAV?$ACE_Based_Pointer@VACE_Malloc_Header@ACE_PI_Control_Block@@@@PAV12@PAX@Z)
+    Conseil sur les symboles définis et susceptibles de correspondre :
+      "__declspec(dllimport) public: static void __cdecl ACE_Control_Block::ACE_Malloc_Header::init_ptr(class ACE_Control_Block::ACE_Malloc_Header * *,class ACE_Control_Block::ACE_Malloc_Header *,void *)" (__imp_?init_ptr@ACE_Malloc_Header@ACE_Control_Block@@SAXPAPAV12@PAV12@PAX@Z)
+      "__declspec(dllimport) public: static void __cdecl ACE_Control_Block::ACE_Name_Node::init_ptr(class ACE_Control_Block::ACE_Name_Node * *,class ACE_Control_Block::ACE_Name_Node *,void *)" (__imp_?init_ptr@ACE_Name_Node@ACE_Control_Block@@SAXPAPAV12@PAV12@PAX@Z)
+Release\posind.exe : fatal error LNK1120: 9 externes non résolus

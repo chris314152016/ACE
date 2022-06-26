@@ -1,0 +1,5 @@
+^C:\_DEV\GIT\ACE_WRAPPERS\APPS\GPERF\TESTS\MODULA3.GPERF
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c "..\..\..\bin\ace_gperf -a -k1,2,$ "modula3.gperf" > "modula3.cpp""
+endlocal

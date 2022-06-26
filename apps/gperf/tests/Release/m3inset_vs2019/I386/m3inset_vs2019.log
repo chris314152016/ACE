@@ -1,0 +1,4 @@
+﻿  Invoking "..\..\..\bin\ace_gperf on modula3.gperf"
+  '..\..\..\bin\ace_gperf' n'est pas reconnu en tant que commande interne
+  ou externe, un programme exécutable ou un fichier de commandes.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(245,5): error MSB8066: la build personnalisée de 'modula3.gperf' s'est arrêtée. Code 1.

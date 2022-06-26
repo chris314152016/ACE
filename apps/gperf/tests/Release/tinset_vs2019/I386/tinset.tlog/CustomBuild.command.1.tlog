@@ -1,0 +1,5 @@
+^C:\_DEV\GIT\ACE_WRAPPERS\APPS\GPERF\TESTS\CORBA.GPERF
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c "..\..\..\bin\ace_gperf -a -o "corba.gperf" > "corba.cpp""
+endlocal

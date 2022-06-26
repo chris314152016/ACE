@@ -1,0 +1,14 @@
+﻿  trap.cpp
+trap.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Get_Opt::operator()(void)" (__imp_??RACE_Get_Opt@@QAEHXZ)
+trap.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Get_Opt::~ACE_Get_Opt(void)" (__imp_??1ACE_Get_Opt@@QAE@XZ)
+trap.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Get_Opt::ACE_Get_Opt(int,char * *,char const *,int,int,int,int)" (__imp_??0ACE_Get_Opt@@QAE@HPAPADPBDHHHH@Z)
+trap.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Argv_Type_Converter::~ACE_Argv_Type_Converter(void)" (__imp_??1ACE_Argv_Type_Converter@@QAE@XZ)
+trap.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Argv_Type_Converter::ACE_Argv_Type_Converter(int &,char * *)" (__imp_??0ACE_Argv_Type_Converter@@QAE@AAHPAPAD@Z)
+trap.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Main_Base::run(int,char * * const)" (__imp_?run@ACE_Main_Base@@QAEHHQAPAD@Z)
+trap.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Main_Base::~ACE_Main_Base(void)" (__imp_??1ACE_Main_Base@@UAE@XZ)
+trap.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Main_Base::ACE_Main_Base(void)" (__imp_??0ACE_Main_Base@@QAE@XZ)
+trap.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: char * __thiscall ACE_Get_Opt::opt_arg(void)const " (__imp_?opt_arg@ACE_Get_Opt@@QBEPADXZ)
+trap.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int & __thiscall ACE_Argv_Type_Converter::get_argc(void)" (__imp_?get_argc@ACE_Argv_Type_Converter@@QAEAAHXZ)
+trap.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: char * * __thiscall ACE_Argv_Type_Converter::get_ASCII_argv(void)" (__imp_?get_ASCII_argv@ACE_Argv_Type_Converter@@QAEPAPADXZ)
+trap.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: char * * __thiscall ACE_Argv_Type_Converter::get_TCHAR_argv(void)" (__imp_?get_TCHAR_argv@ACE_Argv_Type_Converter@@QAEPAPADXZ)
+Release\trap.exe : fatal error LNK1120: 12 externes non résolus

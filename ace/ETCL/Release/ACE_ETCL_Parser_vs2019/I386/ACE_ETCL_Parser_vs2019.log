@@ -1,0 +1,14 @@
+﻿  ETCL_Interpreter.cpp
+  ETCL_l.cpp
+  ETCL_y.cpp
+     Création de la bibliothèque ..\..\lib\ACE_ETCL_Parser.lib et de l'objet ..\..\lib\ACE_ETCL_Parser.exp
+ETCL_Interpreter.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Thread_Mutex::~ACE_Thread_Mutex(void)" (__imp_??1ACE_Thread_Mutex@@QAE@XZ)
+ETCL_Interpreter.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Thread_Mutex::ACE_Thread_Mutex(char const *,struct ACE_mutexattr_t *)" (__imp_??0ACE_Thread_Mutex@@QAE@PBDPAUACE_mutexattr_t@@@Z)
+ETCL_Interpreter.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Thread_Mutex::release(void)" (__imp_?release@ACE_Thread_Mutex@@QAEHXZ)
+ETCL_Interpreter.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Thread_Mutex::acquire(void)" (__imp_?acquire@ACE_Thread_Mutex@@QAEHXZ)
+ETCL_l.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) void __cdecl ACE_OS::exit(int)" (__imp_?exit@ACE_OS@@YAXH@Z)
+ETCL_l.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) void * __cdecl ACE_OS::realloc(void *,unsigned int)" (__imp_?realloc@ACE_OS@@YAPAXPAXI@Z)
+ETCL_l.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) int __cdecl ACE_OS::fprintf(struct _iobuf *,char const *,...)" (__imp_?fprintf@ACE_OS@@YAHPAU_iobuf@@PBDZZ)
+ETCL_l.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) void __cdecl ACE_OS::free(void *)" (__imp_?free@ACE_OS@@YAXPAX@Z)
+ETCL_l.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) void * __cdecl ACE_OS::malloc(unsigned int)" (__imp_?malloc@ACE_OS@@YAPAXI@Z)
+..\..\lib\ACE_ETCL_Parser.dll : fatal error LNK1120: 9 externes non résolus

@@ -1,0 +1,27 @@
+﻿  Main.cpp
+  Malloc_Test.cpp
+C:\_dev\git\ACE_wrappers\tests\Malloc_Test.cpp(323,9): warning C4996: 'GetVersionExA': a été déclaré déconseillé
+     Création de la bibliothèque Release\Malloc_Test.lib et de l'objet Release\Malloc_Test.exp
+Malloc_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: char const * __thiscall ACE_PI_Control_Block::ACE_Name_Node::name(void)const " (__imp_?name@ACE_Name_Node@ACE_PI_Control_Block@@QBEPBDXZ)
+Malloc_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_PI_Control_Block::ACE_Name_Node::ACE_Name_Node(char const *,char *,char *,class ACE_PI_Control_Block::ACE_Name_Node *)" (__imp_??0ACE_Name_Node@ACE_PI_Control_Block@@QAE@PBDPAD1PAV01@@Z)
+Malloc_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static void __cdecl ACE_PI_Control_Block::print_alignment_info(void)" (__imp_?print_alignment_info@ACE_PI_Control_Block@@SAXXZ)
+    Conseil sur les symboles définis et susceptibles de correspondre :
+      "__declspec(dllimport) public: static void __cdecl ACE_Control_Block::print_alignment_info(void)" (__imp_?print_alignment_info@ACE_Control_Block@@SAXXZ)
+Malloc_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) void __cdecl __ace_assert(char const *,int,char const *)" (__imp_?__ace_assert@@YAXPBDH0@Z)
+Malloc_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_MMAP_Memory_Pool::release(int)" (__imp_?release@ACE_MMAP_Memory_Pool@@UAEHH@Z)
+    Conseil sur les symboles définis et susceptibles de correspondre :
+      "__declspec(dllimport) public: int __thiscall ACE_Process_Mutex::release(void)" (__imp_?release@ACE_Process_Mutex@@QAEHXZ)
+Malloc_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual void * __thiscall ACE_MMAP_Memory_Pool::init_acquire(unsigned int,unsigned int &,int &)" (__imp_?init_acquire@ACE_MMAP_Memory_Pool@@UAEPAXIAAIAAH@Z)
+Malloc_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_MMAP_Memory_Pool::~ACE_MMAP_Memory_Pool(void)" (__imp_??1ACE_MMAP_Memory_Pool@@UAE@XZ)
+Malloc_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_MMAP_Memory_Pool::ACE_MMAP_Memory_Pool(char const *,class ACE_MMAP_Memory_Pool_Options const *)" (__imp_??0ACE_MMAP_Memory_Pool@@QAE@PBDPBVACE_MMAP_Memory_Pool_Options@@@Z)
+Malloc_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Process::spawn(class ACE_Process_Options &)" (__imp_?spawn@ACE_Process@@UAEHAAVACE_Process_Options@@@Z)
+Malloc_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Process::~ACE_Process(void)" (__imp_??1ACE_Process@@UAE@XZ)
+Malloc_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Process::ACE_Process(void)" (__imp_??0ACE_Process@@QAE@XZ)
+Malloc_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_MMAP_Memory_Pool_Options::ACE_MMAP_Memory_Pool_Options(void const *,int,bool,unsigned int,unsigned int,bool,struct _SECURITY_ATTRIBUTES *,unsigned short,bool,bool)" (__imp_??0ACE_MMAP_Memory_Pool_Options@@QAE@PBXH_NII1PAU_SECURITY_ATTRIBUTES@@G11@Z)
+Malloc_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __cdecl ACE_Process_Options::command_line(char const *,...)" (__imp_?command_line@ACE_Process_Options@@QAAHPBDZZ)
+Malloc_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Process_Options::~ACE_Process_Options(void)" (__imp_??1ACE_Process_Options@@QAE@XZ)
+Malloc_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Process_Options::ACE_Process_Options(bool,unsigned int,unsigned int,unsigned int,unsigned int)" (__imp_??0ACE_Process_Options@@QAE@_NIIII@Z)
+Malloc_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static void __cdecl ACE_PI_Control_Block::ACE_Name_Node::init_ptr(class ACE_Based_Pointer<class ACE_PI_Control_Block::ACE_Name_Node> *,class ACE_PI_Control_Block::ACE_Name_Node *,void *)" (__imp_?init_ptr@ACE_Name_Node@ACE_PI_Control_Block@@SAXPAV?$ACE_Based_Pointer@VACE_Name_Node@ACE_PI_Control_Block@@@@PAV12@PAX@Z)
+Malloc_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static void __cdecl ACE_PI_Control_Block::ACE_Malloc_Header::init_ptr(class ACE_Based_Pointer<class ACE_PI_Control_Block::ACE_Malloc_Header> *,class ACE_PI_Control_Block::ACE_Malloc_Header *,void *)" (__imp_?init_ptr@ACE_Malloc_Header@ACE_PI_Control_Block@@SAXPAV?$ACE_Based_Pointer@VACE_Malloc_Header@ACE_PI_Control_Block@@@@PAV12@PAX@Z)
+Malloc_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Process::wait(unsigned long *,int)" (__imp_?wait@ACE_Process@@QAEHPAKH@Z)
+Release\Malloc_Test.exe : fatal error LNK1120: 18 externes non résolus

@@ -1,0 +1,11 @@
+﻿  MC_Test_Utilities.cpp
+     Création de la bibliothèque .\MC_Test_Utilities.lib et de l'objet .\MC_Test_Utilities.exp
+MC_Test_Utilities.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: long __thiscall ACE_Date_Time::microsec(void)const " (__imp_?microsec@ACE_Date_Time@@QBEJXZ)
+MC_Test_Utilities.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: long __thiscall ACE_Date_Time::second(void)const " (__imp_?second@ACE_Date_Time@@QBEJXZ)
+MC_Test_Utilities.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: long __thiscall ACE_Date_Time::minute(void)const " (__imp_?minute@ACE_Date_Time@@QBEJXZ)
+MC_Test_Utilities.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: long __thiscall ACE_Date_Time::hour(void)const " (__imp_?hour@ACE_Date_Time@@QBEJXZ)
+MC_Test_Utilities.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: long __thiscall ACE_Date_Time::year(void)const " (__imp_?year@ACE_Date_Time@@QBEJXZ)
+MC_Test_Utilities.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: long __thiscall ACE_Date_Time::month(void)const " (__imp_?month@ACE_Date_Time@@QBEJXZ)
+MC_Test_Utilities.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: long __thiscall ACE_Date_Time::day(void)const " (__imp_?day@ACE_Date_Time@@QBEJXZ)
+MC_Test_Utilities.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Date_Time::ACE_Date_Time(class ACE_Time_Value const &)" (__imp_??0ACE_Date_Time@@QAE@ABVACE_Time_Value@@@Z)
+.\MC_Test_Utilities.dll : fatal error LNK1120: 8 externes non résolus

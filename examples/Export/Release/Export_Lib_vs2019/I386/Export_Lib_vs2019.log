@@ -1,0 +1,15 @@
+﻿  dll.cpp
+     Création de la bibliothèque .\Export_Lib.lib et de l'objet .\Export_Lib.exp
+dll.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) const ACE_Cleanup::`vftable'" (__imp_??_7ACE_Cleanup@@6B@)
+dll.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Cleanup::~ACE_Cleanup(void)" (__imp_??1ACE_Cleanup@@UAE@XZ)
+dll.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Object_Manager::get_singleton_lock(class ACE_Null_Mutex * &)" (__imp_?get_singleton_lock@ACE_Object_Manager@@SAHAAPAVACE_Null_Mutex@@@Z)
+dll.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Object_Manager::shutting_down(void)" (__imp_?shutting_down@ACE_Object_Manager@@SAHXZ)
+dll.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Object_Manager::starting_up(void)" (__imp_?starting_up@ACE_Object_Manager@@SAHXZ)
+dll.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_Cleanup & __thiscall ACE_Cleanup::operator=(class ACE_Cleanup const &)" (__imp_??4ACE_Cleanup@@QAEAAV0@ABV0@@Z)
+dll.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Cleanup::ACE_Cleanup(class ACE_Cleanup const &)" (__imp_??0ACE_Cleanup@@QAE@ABV0@@Z)
+dll.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Guard<class ACE_Null_Mutex>::locked(void)" (__imp_?locked@?$ACE_Guard@VACE_Null_Mutex@@@@QAEHXZ)
+dll.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Guard<class ACE_Null_Mutex>::ACE_Guard<class ACE_Null_Mutex>(class ACE_Null_Mutex &)" (__imp_??0?$ACE_Guard@VACE_Null_Mutex@@@@QAE@AAVACE_Null_Mutex@@@Z)
+dll.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Object_Manager::remove_at_exit(void *)" (__imp_?remove_at_exit@ACE_Object_Manager@@SAHPAX@Z)
+dll.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Object_Manager::at_exit(class ACE_Cleanup *,void *,char const *)" (__imp_?at_exit@ACE_Object_Manager@@SAHPAVACE_Cleanup@@PAXPBD@Z)
+dll.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Cleanup::ACE_Cleanup(void)" (__imp_??0ACE_Cleanup@@QAE@XZ)
+.\Export_Lib.dll : fatal error LNK1120: 12 externes non résolus

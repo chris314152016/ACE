@@ -1,0 +1,30 @@
+﻿  Dirent_Test.cpp
+  Main.cpp
+Dirent_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Dirent_Selector::open(char const *,int (__cdecl*)(struct dirent const *),int (__cdecl*)(struct dirent const * *,struct dirent const * *))" (__imp_?open@ACE_Dirent_Selector@@QAEHPBDP6AHPBUdirent@@@ZP6AHPAPBU2@3@Z@Z)
+Dirent_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Dirent_Selector::close(void)" (__imp_?close@ACE_Dirent_Selector@@QAEHXZ)
+    Conseil sur les symboles définis et susceptibles de correspondre :
+      "__declspec(dllimport) public: void __thiscall ACE_Test_Output::close(void)" (__imp_?close@ACE_Test_Output@@QAEXXZ)
+Dirent_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Dirent_Selector::~ACE_Dirent_Selector(void)" (__imp_??1ACE_Dirent_Selector@@UAE@XZ)
+Dirent_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Dirent_Selector::ACE_Dirent_Selector(void)" (__imp_??0ACE_Dirent_Selector@@QAE@XZ)
+Dirent_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __cdecl ACE_Log_Msg::log(enum ACE_Log_Priority,char const *,...)" (__imp_?log@ACE_Log_Msg@@QAAHW4ACE_Log_Priority@@PBDZZ)
+Dirent_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Log_Msg::conditional_set(char const *,int,int,int)" (__imp_?conditional_set@ACE_Log_Msg@@QAEXPBDHHH@Z)
+Dirent_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Log_Msg::open(char const *,unsigned long,char const *)" (__imp_?open@ACE_Log_Msg@@QAEHPBDK0@Z)
+Dirent_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Log_Msg::last_error_adapter(void)" (__imp_?last_error_adapter@ACE_Log_Msg@@SAHXZ)
+Dirent_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Log_Msg * __cdecl ACE_Log_Msg::instance(void)" (__imp_?instance@ACE_Log_Msg@@SAPAV1@XZ)
+    Conseil sur les symboles définis et susceptibles de correspondre :
+      "__declspec(dllimport) public: static class ACE_Test_Output * __cdecl ACE_Test_Output::instance(void)" (__imp_?instance@ACE_Test_Output@@SAPAV1@XZ)
+Dirent_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: char const * __thiscall ACE_String_Base<char>::c_str(void)const " (__imp_?c_str@?$ACE_String_Base@D@@QBEPBDXZ)
+Dirent_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_String_Base<char> & __thiscall ACE_String_Base<char>::operator+=(char const *)" (__imp_??Y?$ACE_String_Base@D@@QAEAAV0@PBD@Z)
+Dirent_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_String_Base<char> & __thiscall ACE_String_Base<char>::operator=(char const *)" (__imp_??4?$ACE_String_Base@D@@QAEAAV0@PBD@Z)
+Dirent_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_String_Base<char>::~ACE_String_Base<char>(void)" (__imp_??1?$ACE_String_Base@D@@QAE@XZ)
+Dirent_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_String_Base<char>::ACE_String_Base<char>(class ACE_Allocator *)" (__imp_??0?$ACE_String_Base@D@@QAE@PAVACE_Allocator@@@Z)
+Dirent_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: struct dirent * __thiscall ACE_Dirent_Selector::operator[](int)const " (__imp_??AACE_Dirent_Selector@@QBEPAUdirent@@H@Z)
+Dirent_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Dirent_Selector::length(void)const " (__imp_?length@ACE_Dirent_Selector@@QBEHXZ)
+Dirent_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: struct dirent * __thiscall ACE_Dirent::read(void)" (__imp_?read@ACE_Dirent@@QAEPAUdirent@@XZ)
+Dirent_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Dirent::~ACE_Dirent(void)" (__imp_??1ACE_Dirent@@QAE@XZ)
+Dirent_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Dirent::ACE_Dirent(void)" (__imp_??0ACE_Dirent@@QAE@XZ)
+Dirent_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Dirent::open(char const *)" (__imp_?open@ACE_Dirent@@QAEHPBD@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Main_Base::run(int,char * * const)" (__imp_?run@ACE_Main_Base@@QAEHHQAPAD@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Main_Base::~ACE_Main_Base(void)" (__imp_??1ACE_Main_Base@@UAE@XZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Main_Base::ACE_Main_Base(void)" (__imp_??0ACE_Main_Base@@QAE@XZ)
+Release\Dirent_Test.exe : fatal error LNK1120: 23 externes non résolus

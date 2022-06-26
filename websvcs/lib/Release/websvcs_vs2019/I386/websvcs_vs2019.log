@@ -1,0 +1,16 @@
+﻿  URL_Addr.cpp
+     Création de la bibliothèque ..\..\lib\websvcs.lib et de l'objet ..\..\lib\websvcs.exp
+URL_Addr.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: char const * __thiscall ACE_INET_Addr::get_host_addr(void)const " (__imp_?get_host_addr@ACE_INET_Addr@@QBEPBDXZ)
+URL_Addr.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_INET_Addr::~ACE_INET_Addr(void)" (__imp_??1ACE_INET_Addr@@UAE@XZ)
+URL_Addr.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_INET_Addr::ACE_INET_Addr(unsigned short,char const * const,int)" (__imp_??0ACE_INET_Addr@@QAE@GQBDH@Z)
+URL_Addr.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_INET_Addr::ACE_INET_Addr(char const * const,char const * const,char const * const)" (__imp_??0ACE_INET_Addr@@QAE@QBD00@Z)
+URL_Addr.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) unsigned long __cdecl ACE::hash_pjw(char const *)" (__imp_?hash_pjw@ACE@@YAKPBD@Z)
+URL_Addr.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) int __cdecl ACE_OS::sprintf(char *,char const *,...)" (__imp_?sprintf@ACE_OS@@YAHPADPBDZZ)
+URL_Addr.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) void __cdecl ACE_OS::free(void *)" (__imp_?free@ACE_OS@@YAXPAX@Z)
+URL_Addr.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) void * __cdecl ACE_OS::malloc(unsigned int)" (__imp_?malloc@ACE_OS@@YAPAXI@Z)
+URL_Addr.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual void __thiscall ACE_Addr::set_addr(void const *,int)" (__imp_?set_addr@ACE_Addr@@UAEXPBXH@Z)
+URL_Addr.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual void * __thiscall ACE_Addr::get_addr(void)const " (__imp_?get_addr@ACE_Addr@@UBEPAXXZ)
+URL_Addr.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Addr::~ACE_Addr(void)" (__imp_??1ACE_Addr@@UAE@XZ)
+URL_Addr.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Addr::ACE_Addr(int,int)" (__imp_??0ACE_Addr@@QAE@HH@Z)
+..\..\lib\websvcs.dll : fatal error LNK1120: 12 externes non résolus
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1092,5): error MSB6006: Arrêt de "link.exe" avec le code 1120.

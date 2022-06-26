@@ -1,0 +1,17 @@
+﻿  envinfo.cpp
+envinfo.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) unsigned int __cdecl ACE::compiler_beta_version(void)" (__imp_?compiler_beta_version@ACE@@YAIXZ)
+envinfo.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) unsigned int __cdecl ACE::micro_version(void)" (__imp_?micro_version@ACE@@YAIXZ)
+envinfo.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) unsigned int __cdecl ACE::compiler_minor_version(void)" (__imp_?compiler_minor_version@ACE@@YAIXZ)
+envinfo.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) unsigned int __cdecl ACE::compiler_major_version(void)" (__imp_?compiler_major_version@ACE@@YAIXZ)
+envinfo.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) char const * __cdecl ACE::compiler_name(void)" (__imp_?compiler_name@ACE@@YAPBDXZ)
+envinfo.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) unsigned int __cdecl ACE::minor_version(void)" (__imp_?minor_version@ACE@@YAIXZ)
+envinfo.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) unsigned int __cdecl ACE::major_version(void)" (__imp_?major_version@ACE@@YAIXZ)
+envinfo.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) int __cdecl ACE_OS::uname(struct ACE_utsname *)" (__imp_?uname@ACE_OS@@YAHPAUACE_utsname@@@Z)
+envinfo.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Main_Base::run(int,char * * const)" (__imp_?run@ACE_Main_Base@@QAEHHQAPAD@Z)
+envinfo.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Main_Base::~ACE_Main_Base(void)" (__imp_??1ACE_Main_Base@@UAE@XZ)
+envinfo.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Main_Base::ACE_Main_Base(void)" (__imp_??0ACE_Main_Base@@QAE@XZ)
+envinfo.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __cdecl ACE_Log_Msg::log(enum ACE_Log_Priority,char const *,...)" (__imp_?log@ACE_Log_Msg@@QAAHW4ACE_Log_Priority@@PBDZZ)
+envinfo.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Log_Msg::conditional_set(char const *,int,int,int)" (__imp_?conditional_set@ACE_Log_Msg@@QAEXPBDHHH@Z)
+envinfo.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Log_Msg::last_error_adapter(void)" (__imp_?last_error_adapter@ACE_Log_Msg@@SAHXZ)
+envinfo.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Log_Msg * __cdecl ACE_Log_Msg::instance(void)" (__imp_?instance@ACE_Log_Msg@@SAPAV1@XZ)
+Release\envinfo.exe : fatal error LNK1120: 15 externes non résolus

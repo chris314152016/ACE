@@ -1,0 +1,62 @@
+﻿  FTP_Simple_exec.cpp
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(166,82): warning C4244: 'argument' : conversion de 'std::streamsize' en 'size_t', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(165): message : pendant la compilation de la fonction membre classe modèle 'int ACE::IOS::BasicBidirStreamBuffer<char,STREAM_HANDLER,std::char_traits<char>>::read_from_stream(char *,std::streamsize)'
+          with
+          [
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(78): message : voir la référence à l'instanciation de la fonction modèle 'int ACE::IOS::BasicBidirStreamBuffer<char,STREAM_HANDLER,std::char_traits<char>>::read_from_stream(char *,std::streamsize)' en cours de compilation
+          with
+          [
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.h(110): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::BasicBidirStreamBuffer<char,STREAM_HANDLER,std::char_traits<char>>' en cours de compilation
+          with
+          [
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.h(39): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::BidirStreamBuffer<ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH>>' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.h(65): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::Sock_StreamBufferBase<_ACE_SYNCH>' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.h(138): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::Sock_IOSBase<_ACE_SYNCH>' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\FTP_Session.cpp(274): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::Sock_IOStreamBase<_ACE_SYNCH>' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\FTP_Session.cpp(267): message : pendant la compilation de la fonction membre classe modèle 'void ACE::FTP::Session_T<ACE_MT_SYNCH>::close(void)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\FTP_Session.cpp(55): message : voir la référence à l'instanciation de la fonction modèle 'void ACE::FTP::Session_T<ACE_MT_SYNCH>::close(void)' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\FTP_Session.cpp(53): message : pendant la compilation de la fonction membre classe modèle 'ACE::FTP::Session_T<ACE_MT_SYNCH>::~Session_T(void)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\FTP_ClientRequestHandler.h(91): message : voir la référence à l'instanciation classe modèle 'ACE::FTP::Session_T<ACE_MT_SYNCH>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(173,81): warning C4244: 'argument' : conversion de 'std::streamsize' en 'size_t', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(172): message : pendant la compilation de la fonction membre classe modèle 'int ACE::IOS::BasicBidirStreamBuffer<char,STREAM_HANDLER,std::char_traits<char>>::write_to_stream(const char *,std::streamsize)'
+          with
+          [
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+FTP_Simple_exec.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class ACE_String_Base<char> const &)" (__imp_??6@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV01@ABV?$ACE_String_Base@D@@@Z)
+FTP_Simple_exec.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Get_Opt::operator()(void)" (__imp_??RACE_Get_Opt@@QAEHXZ)
+FTP_Simple_exec.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Get_Opt::~ACE_Get_Opt(void)" (__imp_??1ACE_Get_Opt@@QAE@XZ)
+FTP_Simple_exec.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Get_Opt::ACE_Get_Opt(int,char * *,char const *,int,int,int,int)" (__imp_??0ACE_Get_Opt@@QAE@HPAPADPBDHHHH@Z)
+FTP_Simple_exec.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Main_Base::run(int,char * * const)" (__imp_?run@ACE_Main_Base@@QAEHHQAPAD@Z)
+FTP_Simple_exec.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Main_Base::~ACE_Main_Base(void)" (__imp_??1ACE_Main_Base@@UAE@XZ)
+FTP_Simple_exec.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Main_Base::ACE_Main_Base(void)" (__imp_??0ACE_Main_Base@@QAE@XZ)
+FTP_Simple_exec.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: char const * __thiscall ACE_String_Base<char>::c_str(void)const " (__imp_?c_str@?$ACE_String_Base@D@@QBEPBDXZ)
+FTP_Simple_exec.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: bool __thiscall ACE_String_Base<char>::empty(void)const " (__imp_?empty@?$ACE_String_Base@D@@QBE_NXZ)
+FTP_Simple_exec.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_String_Base<char> & __thiscall ACE_String_Base<char>::operator=(char const *)" (__imp_??4?$ACE_String_Base@D@@QAEAAV0@PBD@Z)
+FTP_Simple_exec.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_String_Base<char>::~ACE_String_Base<char>(void)" (__imp_??1?$ACE_String_Base@D@@QAE@XZ)
+FTP_Simple_exec.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_String_Base<char>::ACE_String_Base<char>(class ACE_Allocator *)" (__imp_??0?$ACE_String_Base@D@@QAE@PAVACE_Allocator@@@Z)
+FTP_Simple_exec.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_String_Base<char>::ACE_String_Base<char>(char const *,class ACE_Allocator *,bool)" (__imp_??0?$ACE_String_Base@D@@QAE@PBDPAVACE_Allocator@@_N@Z)
+FTP_Simple_exec.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: char * __thiscall ACE_Get_Opt::opt_arg(void)const " (__imp_?opt_arg@ACE_Get_Opt@@QBEPADXZ)
+Release\ftp_simple_wget.exe : fatal error LNK1120: 14 externes non résolus

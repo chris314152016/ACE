@@ -1,0 +1,18 @@
+﻿  test_event_handler_t.cpp
+test_event_handler_t.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Main_Base::run(int,char * * const)" (__imp_?run@ACE_Main_Base@@QAEHHQAPAD@Z)
+test_event_handler_t.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Main_Base::~ACE_Main_Base(void)" (__imp_??1ACE_Main_Base@@UAE@XZ)
+test_event_handler_t.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Main_Base::ACE_Main_Base(void)" (__imp_??0ACE_Main_Base@@QAE@XZ)
+test_event_handler_t.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) protected: __thiscall ACE_Event_Handler::ACE_Event_Handler(class ACE_Reactor *,int)" (__imp_??0ACE_Event_Handler@@IAE@PAVACE_Reactor@@H@Z)
+test_event_handler_t.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual long __thiscall ACE_Event_Handler::remove_reference(void)" (__imp_?remove_reference@ACE_Event_Handler@@UAEJXZ)
+test_event_handler_t.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual long __thiscall ACE_Event_Handler::add_reference(void)" (__imp_?add_reference@ACE_Event_Handler@@UAEJXZ)
+test_event_handler_t.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual class ACE_Reactor_Timer_Interface * __thiscall ACE_Event_Handler::reactor_timer_interface(void)const " (__imp_?reactor_timer_interface@ACE_Event_Handler@@UBEPAVACE_Reactor_Timer_Interface@@XZ)
+test_event_handler_t.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual void __thiscall ACE_Event_Handler::reactor(class ACE_Reactor *)" (__imp_?reactor@ACE_Event_Handler@@UAEXPAVACE_Reactor@@@Z)
+test_event_handler_t.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual class ACE_Reactor * __thiscall ACE_Event_Handler::reactor(void)const " (__imp_?reactor@ACE_Event_Handler@@UBEPAVACE_Reactor@@XZ)
+test_event_handler_t.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::handle_group_qos(void *)" (__imp_?handle_group_qos@ACE_Event_Handler@@UAEHPAX@Z)
+test_event_handler_t.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::handle_qos(void *)" (__imp_?handle_qos@ACE_Event_Handler@@UAEHPAX@Z)
+test_event_handler_t.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::resume_handler(void)" (__imp_?resume_handler@ACE_Event_Handler@@UAEHXZ)
+test_event_handler_t.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::handle_exit(class ACE_Process *)" (__imp_?handle_exit@ACE_Event_Handler@@UAEHPAVACE_Process@@@Z)
+test_event_handler_t.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::priority(void)const " (__imp_?priority@ACE_Event_Handler@@UBEHXZ)
+test_event_handler_t.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual void __thiscall ACE_Event_Handler::priority(int)" (__imp_?priority@ACE_Event_Handler@@UAEXH@Z)
+test_event_handler_t.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Event_Handler::~ACE_Event_Handler(void)" (__imp_??1ACE_Event_Handler@@UAE@XZ)
+Release\event_handler_t.exe : fatal error LNK1120: 16 externes non résolus

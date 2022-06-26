@@ -1,0 +1,18 @@
+﻿  test_mutex.cpp
+test_mutex.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Profile_Timer::elapsed_time(class ACE_Profile_Timer::ACE_Elapsed_Time &)" (__imp_?elapsed_time@ACE_Profile_Timer@@QAEHAAVACE_Elapsed_Time@1@@Z)
+test_mutex.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Profile_Timer::ACE_Profile_Timer(void)" (__imp_??0ACE_Profile_Timer@@QAE@XZ)
+test_mutex.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) int __cdecl ACE_OS::mutex_init(struct ACE_mutex_t *,int,char const *,struct ACE_mutexattr_t *,struct _SECURITY_ATTRIBUTES *,int)" (__imp_?mutex_init@ACE_OS@@YAHPAUACE_mutex_t@@HPBDPAUACE_mutexattr_t@@PAU_SECURITY_ATTRIBUTES@@H@Z)
+test_mutex.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) int __cdecl ACE_OS::mutex_destroy(struct ACE_mutex_t *)" (__imp_?mutex_destroy@ACE_OS@@YAHPAUACE_mutex_t@@@Z)
+test_mutex.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) int __cdecl ACE_OS::mutex_unlock(struct ACE_mutex_t *)" (__imp_?mutex_unlock@ACE_OS@@YAHPAUACE_mutex_t@@@Z)
+test_mutex.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) int __cdecl ACE_OS::mutex_lock(struct ACE_mutex_t *)" (__imp_?mutex_lock@ACE_OS@@YAHPAUACE_mutex_t@@@Z)
+test_mutex.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Main_Base::run(int,char * * const)" (__imp_?run@ACE_Main_Base@@QAEHHQAPAD@Z)
+test_mutex.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Main_Base::~ACE_Main_Base(void)" (__imp_??1ACE_Main_Base@@UAE@XZ)
+test_mutex.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Main_Base::ACE_Main_Base(void)" (__imp_??0ACE_Main_Base@@QAE@XZ)
+test_mutex.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __cdecl ACE_Log_Msg::log(enum ACE_Log_Priority,char const *,...)" (__imp_?log@ACE_Log_Msg@@QAAHW4ACE_Log_Priority@@PBDZZ)
+test_mutex.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Log_Msg::conditional_set(char const *,int,int,int)" (__imp_?conditional_set@ACE_Log_Msg@@QAEXPBDHHH@Z)
+test_mutex.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Log_Msg::last_error_adapter(void)" (__imp_?last_error_adapter@ACE_Log_Msg@@SAHXZ)
+test_mutex.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Log_Msg * __cdecl ACE_Log_Msg::instance(void)" (__imp_?instance@ACE_Log_Msg@@SAPAV1@XZ)
+test_mutex.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Profile_Timer::stop(void)" (__imp_?stop@ACE_Profile_Timer@@QAEHXZ)
+test_mutex.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Profile_Timer::start(void)" (__imp_?start@ACE_Profile_Timer@@QAEHXZ)
+test_mutex.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Profile_Timer::~ACE_Profile_Timer(void)" (__imp_??1ACE_Profile_Timer@@QAE@XZ)
+Release\test_mutex.exe : fatal error LNK1120: 16 externes non résolus

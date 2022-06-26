@@ -1,0 +1,5 @@
+^C:\_DEV\GIT\ACE_WRAPPERS\APPS\GPERF\TESTS\ADADEFS.GPERF
+setlocal
+PATH=%PATH%;..\..\..\lib
+cmd /c "..\..\..\bin\ace_gperf -a -p -D -k1,$ -s 2 -o "adadefs.gperf" > "adadefs.cpp""
+endlocal

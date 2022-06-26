@@ -1,0 +1,6 @@
+﻿  Unload_libACE.cpp
+  Génération de code en cours
+  Previous IPDB not found, fall back to full compilation.
+  All 4 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Fin de la génération du code
+  Library_Unload_vs2019.vcxproj -> C:\_dev\git\ACE_wrappers\tests\Release\UnloadLibACE.exe

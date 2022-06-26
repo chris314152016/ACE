@@ -1,0 +1,18 @@
+﻿  Codecs_Test.cpp
+  Main.cpp
+Codecs_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static unsigned char * __cdecl ACE_Base64::decode(unsigned char const *,unsigned int *)" (__imp_?decode@ACE_Base64@@SAPAEPBEPAI@Z)
+Codecs_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static unsigned char * __cdecl ACE_Base64::encode(unsigned char const *,unsigned int,unsigned int *,bool)" (__imp_?encode@ACE_Base64@@SAPAEPBEIPAI_N@Z)
+Codecs_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) unsigned int __cdecl ACE::micro_version(void)" (__imp_?micro_version@ACE@@YAIXZ)
+Codecs_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) unsigned int __cdecl ACE::minor_version(void)" (__imp_?minor_version@ACE@@YAIXZ)
+Codecs_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) unsigned int __cdecl ACE::major_version(void)" (__imp_?major_version@ACE@@YAIXZ)
+Codecs_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __cdecl ACE_Log_Msg::log(enum ACE_Log_Priority,char const *,...)" (__imp_?log@ACE_Log_Msg@@QAAHW4ACE_Log_Priority@@PBDZZ)
+Codecs_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Log_Msg::conditional_set(char const *,int,int,int)" (__imp_?conditional_set@ACE_Log_Msg@@QAEXPBDHHH@Z)
+Codecs_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Log_Msg::open(char const *,unsigned long,char const *)" (__imp_?open@ACE_Log_Msg@@QAEHPBDK0@Z)
+Codecs_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Log_Msg::last_error_adapter(void)" (__imp_?last_error_adapter@ACE_Log_Msg@@SAHXZ)
+Codecs_Test.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Log_Msg * __cdecl ACE_Log_Msg::instance(void)" (__imp_?instance@ACE_Log_Msg@@SAPAV1@XZ)
+    Conseil sur les symboles définis et susceptibles de correspondre :
+      "__declspec(dllimport) public: static class ACE_Test_Output * __cdecl ACE_Test_Output::instance(void)" (__imp_?instance@ACE_Test_Output@@SAPAV1@XZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Main_Base::run(int,char * * const)" (__imp_?run@ACE_Main_Base@@QAEHHQAPAD@Z)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Main_Base::~ACE_Main_Base(void)" (__imp_??1ACE_Main_Base@@UAE@XZ)
+Main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Main_Base::ACE_Main_Base(void)" (__imp_??0ACE_Main_Base@@QAE@XZ)
+Release\Codecs_Test.exe : fatal error LNK1120: 13 externes non résolus

@@ -1,0 +1,705 @@
+﻿  AuthenticationBase.cpp
+  ClientRequestHandler.cpp
+  ConnectionCache.cpp
+  FTP_ClientRequestHandler.cpp
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BufferedStreamBuffer.cpp(24,9): warning C4244: 'initialisation' : conversion de 'std::streamsize' en 'unsigned int', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BufferedStreamBuffer.cpp(19): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::BasicBufferedStreamBuffer<char,std::char_traits<char>>::BasicBufferedStreamBuffer(std::streamsize,std::ios_base::openmode)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\FTP_IOStream.h(38): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::BasicBufferedStreamBuffer<char,std::char_traits<char>>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(103,83): warning C4244: 'argument' : conversion de 'std::streamsize' en 'size_t', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(95): message : pendant la compilation de la fonction membre classe modèle 'int ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::read_from_stream(char *,std::streamsize)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.h(90): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.h(115): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::String_IOSBase<char,std::char_traits<char>>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\FTP_ClientRequestHandler.cpp(603): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::String_OStreamBase<char,std::char_traits<char>>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(104,30): warning C4244: '+=' : conversion de 'std::streamsize' en 'unsigned int', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(116,48): warning C4244: 'argument' : conversion de 'std::streamsize' en 'ACE_Allocator::size_type', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(112): message : pendant la compilation de la fonction membre classe modèle 'int ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::write_to_stream(const char *,std::streamsize)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(52,17): warning C4244: '+=' : conversion de '__int64' en 'unsigned int', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(42): message : pendant la compilation de la fonction membre classe modèle 'std::fpos<_Mbstatet> ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::seekoff(__int64,int,int)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(166,82): warning C4244: 'argument' : conversion de 'std::streamsize' en 'size_t', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(165): message : pendant la compilation de la fonction membre classe modèle 'int ACE::IOS::BasicBidirStreamBuffer<char,STREAM_HANDLER,std::char_traits<char>>::read_from_stream(char *,std::streamsize)'
+          with
+          [
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(78): message : voir la référence à l'instanciation de la fonction modèle 'int ACE::IOS::BasicBidirStreamBuffer<char,STREAM_HANDLER,std::char_traits<char>>::read_from_stream(char *,std::streamsize)' en cours de compilation
+          with
+          [
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.h(110): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::BasicBidirStreamBuffer<char,STREAM_HANDLER,std::char_traits<char>>' en cours de compilation
+          with
+          [
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.h(39): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::BidirStreamBuffer<ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH>>' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.h(65): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::Sock_StreamBufferBase<_ACE_SYNCH>' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.h(138): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::Sock_IOSBase<_ACE_SYNCH>' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\FTP_ClientRequestHandler.cpp(177): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::Sock_IOStreamBase<_ACE_SYNCH>' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(173,81): warning C4244: 'argument' : conversion de 'std::streamsize' en 'size_t', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(172): message : pendant la compilation de la fonction membre classe modèle 'int ACE::IOS::BasicBidirStreamBuffer<char,STREAM_HANDLER,std::char_traits<char>>::write_to_stream(const char *,std::streamsize)'
+          with
+          [
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(28,9): warning C4244: 'initialisation' : conversion de 'std::streamsize' en 'unsigned int', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(20): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::BasicBidirStreamBuffer<char,STREAM_HANDLER,std::char_traits<char>>::BasicBidirStreamBuffer(STREAM_HANDLER *,std::streamsize,int)'
+          with
+          [
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(203): message : voir la référence à l'instanciation de la fonction modèle 'ACE::IOS::BasicBidirStreamBuffer<char,STREAM_HANDLER,std::char_traits<char>>::BasicBidirStreamBuffer(STREAM_HANDLER *,std::streamsize,int)' en cours de compilation
+          with
+          [
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(203): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::BidirStreamBuffer<ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH>>::BidirStreamBuffer(STREAM_HANDLER *,std::streamsize,int)'
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH,
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.cpp(16): message : voir la référence à l'instanciation de la fonction modèle 'ACE::IOS::BidirStreamBuffer<ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH>>::BidirStreamBuffer(STREAM_HANDLER *,std::streamsize,int)' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH,
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.cpp(16): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::Sock_StreamBufferBase<_ACE_SYNCH>::Sock_StreamBufferBase(ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH> *)'
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.cpp(30): message : voir la référence à l'instanciation de la fonction modèle 'ACE::IOS::Sock_StreamBufferBase<_ACE_SYNCH>::Sock_StreamBufferBase(ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH> *)' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.cpp(30): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::Sock_IOSBase<_ACE_SYNCH>::Sock_IOSBase(ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH> *)'
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.cpp(107): message : voir la référence à l'instanciation de la fonction modèle 'ACE::IOS::Sock_IOSBase<_ACE_SYNCH>::Sock_IOSBase(ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH> *)' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.cpp(107): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::Sock_IOStreamBase<_ACE_SYNCH>::Sock_IOStreamBase(ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH> *)'
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\FTP_ClientRequestHandler.cpp(488): message : voir la référence à l'instanciation de la fonction modèle 'ACE::IOS::Sock_IOStreamBase<_ACE_SYNCH>::Sock_IOStreamBase(ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH> *)' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(31,9): warning C4244: 'initialisation' : conversion de 'std::streamsize' en 'unsigned int', perte possible de données
+  FTP_IOStream.cpp
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BufferedStreamBuffer.cpp(24,9): warning C4244: 'initialisation' : conversion de 'std::streamsize' en 'unsigned int', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BufferedStreamBuffer.cpp(19): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::BasicBufferedStreamBuffer<char,std::char_traits<char>>::BasicBufferedStreamBuffer(std::streamsize,std::ios_base::openmode)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\FTP_IOStream.cpp(20): message : voir la référence à l'instanciation de la fonction modèle 'ACE::IOS::BasicBufferedStreamBuffer<char,std::char_traits<char>>::BasicBufferedStreamBuffer(std::streamsize,std::ios_base::openmode)' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\FTP_IOStream.h(38): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::BasicBufferedStreamBuffer<char,std::char_traits<char>>' en cours de compilation
+  FTP_Request.cpp
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(103,83): warning C4244: 'argument' : conversion de 'std::streamsize' en 'size_t', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(95): message : pendant la compilation de la fonction membre classe modèle 'int ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::read_from_stream(char *,std::streamsize)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.h(90): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.h(139): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::String_IOSBase<char,std::char_traits<char>>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\FTP_Request.cpp(57): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::String_IStreamBase<char,std::char_traits<char>>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(104,30): warning C4244: '+=' : conversion de 'std::streamsize' en 'unsigned int', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(116,48): warning C4244: 'argument' : conversion de 'std::streamsize' en 'ACE_Allocator::size_type', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(112): message : pendant la compilation de la fonction membre classe modèle 'int ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::write_to_stream(const char *,std::streamsize)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(52,17): warning C4244: '+=' : conversion de '__int64' en 'unsigned int', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(42): message : pendant la compilation de la fonction membre classe modèle 'std::fpos<_Mbstatet> ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::seekoff(__int64,int,int)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BufferedStreamBuffer.cpp(24,9): warning C4244: 'initialisation' : conversion de 'std::streamsize' en 'unsigned int', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BufferedStreamBuffer.cpp(19): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::BasicBufferedStreamBuffer<char,std::char_traits<char>>::BasicBufferedStreamBuffer(std::streamsize,std::ios_base::openmode)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(25): message : voir la référence à l'instanciation de la fonction modèle 'ACE::IOS::BasicBufferedStreamBuffer<char,std::char_traits<char>>::BasicBufferedStreamBuffer(std::streamsize,std::ios_base::openmode)' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(25): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::String_StreamBufferBase(ACE_String_Base<char> &,int)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(131): message : voir la référence à l'instanciation de la fonction modèle 'ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::String_StreamBufferBase(ACE_String_Base<char> &,int)' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(131): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::String_IOSBase<char,std::char_traits<char>>::String_IOSBase(ACE_String_Base<char> &,int)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(203): message : voir la référence à l'instanciation de la fonction modèle 'ACE::IOS::String_IOSBase<char,std::char_traits<char>>::String_IOSBase(ACE_String_Base<char> &,int)' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(138): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::String_IOSBase<char,std::char_traits<char>>::~String_IOSBase(void)'
+  FTP_Response.cpp
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(103,83): warning C4244: 'argument' : conversion de 'std::streamsize' en 'size_t', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(95): message : pendant la compilation de la fonction membre classe modèle 'int ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::read_from_stream(char *,std::streamsize)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.h(90): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.h(115): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::String_IOSBase<char,std::char_traits<char>>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\FTP_Response.cpp(71): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::String_OStreamBase<char,std::char_traits<char>>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(104,30): warning C4244: '+=' : conversion de 'std::streamsize' en 'unsigned int', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(116,48): warning C4244: 'argument' : conversion de 'std::streamsize' en 'ACE_Allocator::size_type', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(112): message : pendant la compilation de la fonction membre classe modèle 'int ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::write_to_stream(const char *,std::streamsize)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(52,17): warning C4244: '+=' : conversion de '__int64' en 'unsigned int', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(42): message : pendant la compilation de la fonction membre classe modèle 'std::fpos<_Mbstatet> ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::seekoff(__int64,int,int)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BufferedStreamBuffer.cpp(24,9): warning C4244: 'initialisation' : conversion de 'std::streamsize' en 'unsigned int', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BufferedStreamBuffer.cpp(19): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::BasicBufferedStreamBuffer<char,std::char_traits<char>>::BasicBufferedStreamBuffer(std::streamsize,std::ios_base::openmode)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(25): message : voir la référence à l'instanciation de la fonction modèle 'ACE::IOS::BasicBufferedStreamBuffer<char,std::char_traits<char>>::BasicBufferedStreamBuffer(std::streamsize,std::ios_base::openmode)' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(25): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::String_StreamBufferBase(ACE_String_Base<char> &,int)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(131): message : voir la référence à l'instanciation de la fonction modèle 'ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::String_StreamBufferBase(ACE_String_Base<char> &,int)' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(81): message : pendant la compilation de la fonction membre classe modèle 'void ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::close_string(void)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(152): message : voir la référence à l'instanciation de la fonction modèle 'void ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::close_string(void)' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(33): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::~String_StreamBufferBase(void)'
+  FTP_URL.cpp
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BufferedStreamBuffer.cpp(24,9): warning C4244: 'initialisation' : conversion de 'std::streamsize' en 'unsigned int', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BufferedStreamBuffer.cpp(19): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::BasicBufferedStreamBuffer<char,std::char_traits<char>>::BasicBufferedStreamBuffer(std::streamsize,std::ios_base::openmode)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\FTP_IOStream.h(38): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::BasicBufferedStreamBuffer<char,std::char_traits<char>>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(103,83): warning C4244: 'argument' : conversion de 'std::streamsize' en 'size_t', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(95): message : pendant la compilation de la fonction membre classe modèle 'int ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::read_from_stream(char *,std::streamsize)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.h(90): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.h(115): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::String_IOSBase<char,std::char_traits<char>>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\FTP_URL.cpp(56): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::String_OStreamBase<char,std::char_traits<char>>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(104,30): warning C4244: '+=' : conversion de 'std::streamsize' en 'unsigned int', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(116,48): warning C4244: 'argument' : conversion de 'std::streamsize' en 'ACE_Allocator::size_type', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(112): message : pendant la compilation de la fonction membre classe modèle 'int ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::write_to_stream(const char *,std::streamsize)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(52,17): warning C4244: '+=' : conversion de '__int64' en 'unsigned int', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(42): message : pendant la compilation de la fonction membre classe modèle 'std::fpos<_Mbstatet> ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::seekoff(__int64,int,int)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(166,82): warning C4244: 'argument' : conversion de 'std::streamsize' en 'size_t', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(165): message : pendant la compilation de la fonction membre classe modèle 'int ACE::IOS::BasicBidirStreamBuffer<char,STREAM_HANDLER,std::char_traits<char>>::read_from_stream(char *,std::streamsize)'
+          with
+          [
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(78): message : voir la référence à l'instanciation de la fonction modèle 'int ACE::IOS::BasicBidirStreamBuffer<char,STREAM_HANDLER,std::char_traits<char>>::read_from_stream(char *,std::streamsize)' en cours de compilation
+          with
+          [
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.h(110): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::BasicBidirStreamBuffer<char,STREAM_HANDLER,std::char_traits<char>>' en cours de compilation
+          with
+          [
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.h(39): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::BidirStreamBuffer<ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH>>' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.h(65): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::Sock_StreamBufferBase<_ACE_SYNCH>' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.h(138): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::Sock_IOSBase<_ACE_SYNCH>' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\FTP_Session.cpp(274): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::Sock_IOStreamBase<_ACE_SYNCH>' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\FTP_Session.cpp(267): message : pendant la compilation de la fonction membre classe modèle 'void ACE::FTP::Session_T<ACE_MT_SYNCH>::close(void)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\FTP_Session.cpp(55): message : voir la référence à l'instanciation de la fonction modèle 'void ACE::FTP::Session_T<ACE_MT_SYNCH>::close(void)' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\FTP_Session.cpp(53): message : pendant la compilation de la fonction membre classe modèle 'ACE::FTP::Session_T<ACE_MT_SYNCH>::~Session_T(void)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\FTP_ClientRequestHandler.h(91): message : voir la référence à l'instanciation classe modèle 'ACE::FTP::Session_T<ACE_MT_SYNCH>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(173,81): warning C4244: 'argument' : conversion de 'std::streamsize' en 'size_t', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(172): message : pendant la compilation de la fonction membre classe modèle 'int ACE::IOS::BasicBidirStreamBuffer<char,STREAM_HANDLER,std::char_traits<char>>::write_to_stream(const char *,std::streamsize)'
+          with
+          [
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+  HTTP_BasicAuthentication.cpp
+  HTTP_ClientRequestHandler.cpp
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BufferedStreamBuffer.cpp(24,9): warning C4244: 'initialisation' : conversion de 'std::streamsize' en 'unsigned int', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BufferedStreamBuffer.cpp(19): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::BasicBufferedStreamBuffer<char,std::char_traits<char>>::BasicBufferedStreamBuffer(std::streamsize,std::ios_base::openmode)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\HTTP_IOStream.h(39): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::BasicBufferedStreamBuffer<char,std::char_traits<char>>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(166,82): warning C4244: 'argument' : conversion de 'std::streamsize' en 'size_t', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(165): message : pendant la compilation de la fonction membre classe modèle 'int ACE::IOS::BasicBidirStreamBuffer<char,STREAM_HANDLER,std::char_traits<char>>::read_from_stream(char *,std::streamsize)'
+          with
+          [
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(78): message : voir la référence à l'instanciation de la fonction modèle 'int ACE::IOS::BasicBidirStreamBuffer<char,STREAM_HANDLER,std::char_traits<char>>::read_from_stream(char *,std::streamsize)' en cours de compilation
+          with
+          [
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.h(110): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::BasicBidirStreamBuffer<char,STREAM_HANDLER,std::char_traits<char>>' en cours de compilation
+          with
+          [
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.h(39): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::BidirStreamBuffer<ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH>>' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.h(65): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::Sock_StreamBufferBase<_ACE_SYNCH>' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.h(138): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::Sock_IOSBase<_ACE_SYNCH>' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\HTTP_Session.cpp(88): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::Sock_IOStreamBase<_ACE_SYNCH>' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\HTTP_Session.cpp(58): message : pendant la compilation de la fonction membre classe modèle 'bool ACE::HTTP::Session_T<ACE_MT_SYNCH>::connect_i(const ACE_Synch_Options &)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\HTTP_ClientRequestHandler.h(97): message : voir la référence à l'instanciation classe modèle 'ACE::HTTP::Session_T<ACE_MT_SYNCH>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(173,81): warning C4244: 'argument' : conversion de 'std::streamsize' en 'size_t', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(172): message : pendant la compilation de la fonction membre classe modèle 'int ACE::IOS::BasicBidirStreamBuffer<char,STREAM_HANDLER,std::char_traits<char>>::write_to_stream(const char *,std::streamsize)'
+          with
+          [
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(28,9): warning C4244: 'initialisation' : conversion de 'std::streamsize' en 'unsigned int', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(20): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::BasicBidirStreamBuffer<char,STREAM_HANDLER,std::char_traits<char>>::BasicBidirStreamBuffer(STREAM_HANDLER *,std::streamsize,int)'
+          with
+          [
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(203): message : voir la référence à l'instanciation de la fonction modèle 'ACE::IOS::BasicBidirStreamBuffer<char,STREAM_HANDLER,std::char_traits<char>>::BasicBidirStreamBuffer(STREAM_HANDLER *,std::streamsize,int)' en cours de compilation
+          with
+          [
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(203): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::BidirStreamBuffer<ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH>>::BidirStreamBuffer(STREAM_HANDLER *,std::streamsize,int)'
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH,
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.cpp(16): message : voir la référence à l'instanciation de la fonction modèle 'ACE::IOS::BidirStreamBuffer<ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH>>::BidirStreamBuffer(STREAM_HANDLER *,std::streamsize,int)' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH,
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.cpp(16): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::Sock_StreamBufferBase<_ACE_SYNCH>::Sock_StreamBufferBase(ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH> *)'
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.cpp(30): message : voir la référence à l'instanciation de la fonction modèle 'ACE::IOS::Sock_StreamBufferBase<_ACE_SYNCH>::Sock_StreamBufferBase(ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH> *)' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.cpp(30): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::Sock_IOSBase<_ACE_SYNCH>::Sock_IOSBase(ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH> *)'
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.cpp(107): message : voir la référence à l'instanciation de la fonction modèle 'ACE::IOS::Sock_IOSBase<_ACE_SYNCH>::Sock_IOSBase(ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH> *)' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.cpp(107): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::Sock_IOStreamBase<_ACE_SYNCH>::Sock_IOStreamBase(ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH> *)'
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\HTTP_Session.cpp(88): message : voir la référence à l'instanciation de la fonction modèle 'ACE::IOS::Sock_IOStreamBase<_ACE_SYNCH>::Sock_IOStreamBase(ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH> *)' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(31,9): warning C4244: 'initialisation' : conversion de 'std::streamsize' en 'unsigned int', perte possible de données
+  HTTP_Header.cpp
+  HTTP_IOStream.cpp
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BufferedStreamBuffer.cpp(24,9): warning C4244: 'initialisation' : conversion de 'std::streamsize' en 'unsigned int', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BufferedStreamBuffer.cpp(19): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::BasicBufferedStreamBuffer<char,std::char_traits<char>>::BasicBufferedStreamBuffer(std::streamsize,std::ios_base::openmode)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\HTTP_IOStream.cpp(20): message : voir la référence à l'instanciation de la fonction modèle 'ACE::IOS::BasicBufferedStreamBuffer<char,std::char_traits<char>>::BasicBufferedStreamBuffer(std::streamsize,std::ios_base::openmode)' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\HTTP_IOStream.h(39): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::BasicBufferedStreamBuffer<char,std::char_traits<char>>' en cours de compilation
+  HTTP_Request.cpp
+  HTTP_Response.cpp
+  HTTP_SessionBase.cpp
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BufferedStreamBuffer.cpp(24,9): warning C4244: 'initialisation' : conversion de 'std::streamsize' en 'unsigned int', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BufferedStreamBuffer.cpp(19): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::BasicBufferedStreamBuffer<char,std::char_traits<char>>::BasicBufferedStreamBuffer(std::streamsize,std::ios_base::openmode)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\HTTP_IOStream.h(39): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::BasicBufferedStreamBuffer<char,std::char_traits<char>>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(103,83): warning C4244: 'argument' : conversion de 'std::streamsize' en 'size_t', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(95): message : pendant la compilation de la fonction membre classe modèle 'int ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::read_from_stream(char *,std::streamsize)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.h(90): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.h(115): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::String_IOSBase<char,std::char_traits<char>>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\HTTP_StreamPolicy.h(79): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::String_OStreamBase<char,std::char_traits<char>>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\HTTP_SessionBase.cpp(137): message : voir la référence à l'instanciation classe modèle 'ACE::HTTP::ChunkedTransferStreamPolicyBase<ACE::HTTP::StreamBuffer>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(104,30): warning C4244: '+=' : conversion de 'std::streamsize' en 'unsigned int', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(116,48): warning C4244: 'argument' : conversion de 'std::streamsize' en 'ACE_Allocator::size_type', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(112): message : pendant la compilation de la fonction membre classe modèle 'int ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::write_to_stream(const char *,std::streamsize)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(52,17): warning C4244: '+=' : conversion de '__int64' en 'unsigned int', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(42): message : pendant la compilation de la fonction membre classe modèle 'std::fpos<_Mbstatet> ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::seekoff(__int64,int,int)'
+  HTTP_Status.cpp
+  HTTP_URL.cpp
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BufferedStreamBuffer.cpp(24,9): warning C4244: 'initialisation' : conversion de 'std::streamsize' en 'unsigned int', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BufferedStreamBuffer.cpp(19): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::BasicBufferedStreamBuffer<char,std::char_traits<char>>::BasicBufferedStreamBuffer(std::streamsize,std::ios_base::openmode)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\HTTP_IOStream.h(39): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::BasicBufferedStreamBuffer<char,std::char_traits<char>>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(103,83): warning C4244: 'argument' : conversion de 'std::streamsize' en 'size_t', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(95): message : pendant la compilation de la fonction membre classe modèle 'int ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::read_from_stream(char *,std::streamsize)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.h(90): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.h(115): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::String_IOSBase<char,std::char_traits<char>>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\HTTP_URL.cpp(67): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::String_OStreamBase<char,std::char_traits<char>>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(104,30): warning C4244: '+=' : conversion de 'std::streamsize' en 'unsigned int', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(116,48): warning C4244: 'argument' : conversion de 'std::streamsize' en 'ACE_Allocator::size_type', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(112): message : pendant la compilation de la fonction membre classe modèle 'int ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::write_to_stream(const char *,std::streamsize)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(52,17): warning C4244: '+=' : conversion de '__int64' en 'unsigned int', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(42): message : pendant la compilation de la fonction membre classe modèle 'std::fpos<_Mbstatet> ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::seekoff(__int64,int,int)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(166,82): warning C4244: 'argument' : conversion de 'std::streamsize' en 'size_t', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(165): message : pendant la compilation de la fonction membre classe modèle 'int ACE::IOS::BasicBidirStreamBuffer<char,STREAM_HANDLER,std::char_traits<char>>::read_from_stream(char *,std::streamsize)'
+          with
+          [
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(78): message : voir la référence à l'instanciation de la fonction modèle 'int ACE::IOS::BasicBidirStreamBuffer<char,STREAM_HANDLER,std::char_traits<char>>::read_from_stream(char *,std::streamsize)' en cours de compilation
+          with
+          [
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.h(110): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::BasicBidirStreamBuffer<char,STREAM_HANDLER,std::char_traits<char>>' en cours de compilation
+          with
+          [
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.h(39): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::BidirStreamBuffer<ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH>>' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.h(65): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::Sock_StreamBufferBase<_ACE_SYNCH>' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.h(138): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::Sock_IOSBase<_ACE_SYNCH>' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\HTTP_Session.cpp(88): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::Sock_IOStreamBase<_ACE_SYNCH>' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\HTTP_Session.cpp(58): message : pendant la compilation de la fonction membre classe modèle 'bool ACE::HTTP::Session_T<ACE_MT_SYNCH>::connect_i(const ACE_Synch_Options &)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\HTTP_ClientRequestHandler.h(97): message : voir la référence à l'instanciation classe modèle 'ACE::HTTP::Session_T<ACE_MT_SYNCH>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(173,81): warning C4244: 'argument' : conversion de 'std::streamsize' en 'size_t', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(172): message : pendant la compilation de la fonction membre classe modèle 'int ACE::IOS::BasicBidirStreamBuffer<char,STREAM_HANDLER,std::char_traits<char>>::write_to_stream(const char *,std::streamsize)'
+          with
+          [
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(28,9): warning C4244: 'initialisation' : conversion de 'std::streamsize' en 'unsigned int', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(20): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::BasicBidirStreamBuffer<char,STREAM_HANDLER,std::char_traits<char>>::BasicBidirStreamBuffer(STREAM_HANDLER *,std::streamsize,int)'
+          with
+          [
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(203): message : voir la référence à l'instanciation de la fonction modèle 'ACE::IOS::BasicBidirStreamBuffer<char,STREAM_HANDLER,std::char_traits<char>>::BasicBidirStreamBuffer(STREAM_HANDLER *,std::streamsize,int)' en cours de compilation
+          with
+          [
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(203): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::BidirStreamBuffer<ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH>>::BidirStreamBuffer(STREAM_HANDLER *,std::streamsize,int)'
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH,
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.cpp(16): message : voir la référence à l'instanciation de la fonction modèle 'ACE::IOS::BidirStreamBuffer<ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH>>::BidirStreamBuffer(STREAM_HANDLER *,std::streamsize,int)' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH,
+              STREAM_HANDLER=ACE::IOS::StreamHandler<ACE_SOCK_Stream,ACE_MT_SYNCH>
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.cpp(16): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::Sock_StreamBufferBase<_ACE_SYNCH>::Sock_StreamBufferBase(ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH> *)'
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.cpp(30): message : voir la référence à l'instanciation de la fonction modèle 'ACE::IOS::Sock_StreamBufferBase<_ACE_SYNCH>::Sock_StreamBufferBase(ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH> *)' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.cpp(30): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::Sock_IOSBase<_ACE_SYNCH>::Sock_IOSBase(ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH> *)'
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.cpp(107): message : voir la référence à l'instanciation de la fonction modèle 'ACE::IOS::Sock_IOSBase<_ACE_SYNCH>::Sock_IOSBase(ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH> *)' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\Sock_IOStream.cpp(107): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::Sock_IOStreamBase<_ACE_SYNCH>::Sock_IOStreamBase(ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH> *)'
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\HTTP_Session.cpp(88): message : voir la référence à l'instanciation de la fonction modèle 'ACE::IOS::Sock_IOStreamBase<_ACE_SYNCH>::Sock_IOStreamBase(ACE::IOS::StreamHandler<ACE_SOCK_Stream,_ACE_SYNCH> *)' en cours de compilation
+          with
+          [
+              _ACE_SYNCH=ACE_MT_SYNCH
+          ]
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BidirStreamBuffer.cpp(31,9): warning C4244: 'initialisation' : conversion de 'std::streamsize' en 'unsigned int', perte possible de données
+  HeaderBase.cpp
+  INet_Log.cpp
+  IOS_util.cpp
+  Compilation en cours...
+  Request.cpp
+  RequestHandler.cpp
+  Response.cpp
+  URLBase.cpp
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(103,83): warning C4244: 'argument' : conversion de 'std::streamsize' en 'size_t', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(95): message : pendant la compilation de la fonction membre classe modèle 'int ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::read_from_stream(char *,std::streamsize)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.h(90): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.h(115): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::String_IOSBase<char,std::char_traits<char>>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\URLBase.cpp(76): message : voir la référence à l'instanciation classe modèle 'ACE::IOS::String_OStreamBase<char,std::char_traits<char>>' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(104,30): warning C4244: '+=' : conversion de 'std::streamsize' en 'unsigned int', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(116,48): warning C4244: 'argument' : conversion de 'std::streamsize' en 'ACE_Allocator::size_type', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(112): message : pendant la compilation de la fonction membre classe modèle 'int ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::write_to_stream(const char *,std::streamsize)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(52,17): warning C4244: '+=' : conversion de '__int64' en 'unsigned int', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(42): message : pendant la compilation de la fonction membre classe modèle 'std::fpos<_Mbstatet> ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::seekoff(__int64,int,int)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BufferedStreamBuffer.cpp(24,9): warning C4244: 'initialisation' : conversion de 'std::streamsize' en 'unsigned int', perte possible de données
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\BufferedStreamBuffer.cpp(19): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::BasicBufferedStreamBuffer<char,std::char_traits<char>>::BasicBufferedStreamBuffer(std::streamsize,std::ios_base::openmode)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(25): message : voir la référence à l'instanciation de la fonction modèle 'ACE::IOS::BasicBufferedStreamBuffer<char,std::char_traits<char>>::BasicBufferedStreamBuffer(std::streamsize,std::ios_base::openmode)' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(25): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::String_StreamBufferBase(ACE_String_Base<char> &,int)'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(131): message : voir la référence à l'instanciation de la fonction modèle 'ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::String_StreamBufferBase(ACE_String_Base<char> &,int)' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(74): message : pendant la compilation de la fonction membre classe modèle 'const ACE_String_Base<char> &ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::str(void) const'
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(185): message : voir la référence à l'instanciation de la fonction modèle 'const ACE_String_Base<char> &ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::str(void) const' en cours de compilation
+C:\_dev\git\ACE_wrappers\protocols\ace\INet\String_IOStream.cpp(33): message : pendant la compilation de la fonction membre classe modèle 'ACE::IOS::String_StreamBufferBase<char,std::char_traits<char>>::~String_StreamBufferBase(void)'
+     Création de la bibliothèque ..\..\..\lib\ACE_INet.lib et de l'objet ..\..\..\lib\ACE_INet.exp
+ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) const ACE_Cleanup::`vftable'" (__imp_??_7ACE_Cleanup@@6B@)
+ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Cleanup::~ACE_Cleanup(void)" (__imp_??1ACE_Cleanup@@UAE@XZ)
+ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Object_Manager::get_singleton_lock(class ACE_Thread_Mutex * &)" (__imp_?get_singleton_lock@ACE_Object_Manager@@SAHAAPAVACE_Thread_Mutex@@@Z)
+ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Object_Manager::shutting_down(void)" (__imp_?shutting_down@ACE_Object_Manager@@SAHXZ)
+ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Object_Manager::starting_up(void)" (__imp_?starting_up@ACE_Object_Manager@@SAHXZ)
+ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: bool __thiscall ACE_String_Base<char>::operator==(class ACE_String_Base<char> const &)const " (__imp_??8?$ACE_String_Base@D@@QBE_NABV0@@Z)
+ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_String_Base<char> & __thiscall ACE_String_Base<char>::operator=(class ACE_String_Base<char> const &)" (__imp_??4?$ACE_String_Base@D@@QAEAAV0@ABV0@@Z)
+ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_String_Base<char>::~ACE_String_Base<char>(void)" (__imp_??1?$ACE_String_Base@D@@QAE@XZ)
+ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_String_Base<char>::ACE_String_Base<char>(class ACE_String_Base<char> const &)" (__imp_??0?$ACE_String_Base@D@@QAE@ABV0@@Z)
+ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: unsigned long __thiscall ACE_Hash<class ACE_String_Base<char> >::operator()(class ACE_String_Base<char> const &)const " (__imp_??R?$ACE_Hash@V?$ACE_String_Base@D@@@@QBEKABV?$ACE_String_Base@D@@@Z)
+ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Object_Manager::remove_at_exit(void *)" (__imp_?remove_at_exit@ACE_Object_Manager@@SAHPAX@Z)
+ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Object_Manager::at_exit(class ACE_Cleanup *,void *,char const *)" (__imp_?at_exit@ACE_Object_Manager@@SAHPAVACE_Cleanup@@PAXPBD@Z)
+ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Thread_Mutex::release(void)" (__imp_?release@ACE_Thread_Mutex@@QAEHXZ)
+ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Thread_Mutex::acquire(void)" (__imp_?acquire@ACE_Thread_Mutex@@QAEHXZ)
+ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Cleanup::ACE_Cleanup(void)" (__imp_??0ACE_Cleanup@@QAE@XZ)
+ConnectionCache.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Log_Category & __cdecl ACE_Log_Category::ace_lib(void)" (__imp_?ace_lib@ACE_Log_Category@@SAAAV1@XZ)
+ConnectionCache.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_Log_Category_TSS * __thiscall ACE_Log_Category::per_thr_obj(void)" (__imp_?per_thr_obj@ACE_Log_Category@@QAEPAVACE_Log_Category_TSS@@XZ)
+ConnectionCache.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Thread_Mutex::~ACE_Thread_Mutex(void)" (__imp_??1ACE_Thread_Mutex@@QAE@XZ)
+ConnectionCache.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Thread_Mutex::ACE_Thread_Mutex(char const *,struct ACE_mutexattr_t *)" (__imp_??0ACE_Thread_Mutex@@QAE@PBDPAUACE_mutexattr_t@@@Z)
+ConnectionCache.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __cdecl ACE_Log_Msg::log(enum ACE_Log_Priority,char const *,...)" (__imp_?log@ACE_Log_Msg@@QAAHW4ACE_Log_Priority@@PBDZZ)
+ConnectionCache.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Log_Msg::conditional_set(char const *,int,int,int)" (__imp_?conditional_set@ACE_Log_Msg@@QAEXPBDHHH@Z)
+ConnectionCache.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Log_Msg::last_error_adapter(void)" (__imp_?last_error_adapter@ACE_Log_Msg@@SAHXZ)
+ConnectionCache.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Log_Msg * __cdecl ACE_Log_Msg::instance(void)" (__imp_?instance@ACE_Log_Msg@@SAPAV1@XZ)
+ConnectionCache.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Condition<class ACE_Thread_Mutex>::broadcast(void)" (__imp_?broadcast@?$ACE_Condition@VACE_Thread_Mutex@@@@QAEHXZ)
+ConnectionCache.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Condition<class ACE_Thread_Mutex>::wait(void)" (__imp_?wait@?$ACE_Condition@VACE_Thread_Mutex@@@@QAEHXZ)
+ConnectionCache.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Condition<class ACE_Thread_Mutex>::~ACE_Condition<class ACE_Thread_Mutex>(void)" (__imp_??1?$ACE_Condition@VACE_Thread_Mutex@@@@QAE@XZ)
+ConnectionCache.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Condition<class ACE_Thread_Mutex>::ACE_Condition<class ACE_Thread_Mutex>(class ACE_Thread_Mutex &,char const *,void *)" (__imp_??0?$ACE_Condition@VACE_Thread_Mutex@@@@QAE@AAVACE_Thread_Mutex@@PBDPAX@Z)
+ConnectionCache.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Allocator * __cdecl ACE_Allocator::instance(void)" (__imp_?instance@ACE_Allocator@@SAPAV1@XZ)
+ConnectionCache.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Read_Guard<class ACE_Null_Mutex>::ACE_Read_Guard<class ACE_Null_Mutex>(class ACE_Null_Mutex &)" (__imp_??0?$ACE_Read_Guard@VACE_Null_Mutex@@@@QAE@AAVACE_Null_Mutex@@@Z)
+ConnectionCache.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Write_Guard<class ACE_Null_Mutex>::ACE_Write_Guard<class ACE_Null_Mutex>(class ACE_Null_Mutex &)" (__imp_??0?$ACE_Write_Guard@VACE_Null_Mutex@@@@QAE@AAVACE_Null_Mutex@@@Z)
+ConnectionCache.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Guard<class ACE_Null_Mutex>::locked(void)" (__imp_?locked@?$ACE_Guard@VACE_Null_Mutex@@@@QAEHXZ)
+ConnectionCache.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Guard<class ACE_Null_Mutex>::ACE_Guard<class ACE_Null_Mutex>(class ACE_Null_Mutex &)" (__imp_??0?$ACE_Guard@VACE_Null_Mutex@@@@QAE@AAVACE_Null_Mutex@@@Z)
+ConnectionCache.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Null_Mutex::ACE_Null_Mutex(char const *)" (__imp_??0ACE_Null_Mutex@@QAE@PBD@Z)
+ConnectionCache.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __cdecl ACE_Log_Category_TSS::log(enum ACE_Log_Priority,char const *,...)" (__imp_?log@ACE_Log_Category_TSS@@QAAHW4ACE_Log_Priority@@PBDZZ)
+ConnectionCache.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Log_Category_TSS::conditional_set(char const *,int,int,int)" (__imp_?conditional_set@ACE_Log_Category_TSS@@QAEXPBDHHH@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual class ACE_Task<class ACE_MT_SYNCH,class ACE_System_Time_Policy> * __thiscall ACE_Task<class ACE_MT_SYNCH,class ACE_System_Time_Policy>::next(void)" (__imp_?next@?$ACE_Task@VACE_MT_SYNCH@@VACE_System_Time_Policy@@@@UAEPAV1@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Task<class ACE_MT_SYNCH,class ACE_System_Time_Policy>::ungetq(class ACE_Message_Block *,class ACE_Time_Value *)" (__imp_?ungetq@?$ACE_Task@VACE_MT_SYNCH@@VACE_System_Time_Policy@@@@QAEHPAVACE_Message_Block@@PAVACE_Time_Value@@@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Task<class ACE_MT_SYNCH,class ACE_System_Time_Policy>::getq(class ACE_Message_Block * &,class ACE_Time_Value *)" (__imp_?getq@?$ACE_Task@VACE_MT_SYNCH@@VACE_System_Time_Policy@@@@QAEHAAPAVACE_Message_Block@@PAVACE_Time_Value@@@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Task<class ACE_MT_SYNCH,class ACE_System_Time_Policy>::putq(class ACE_Message_Block *,class ACE_Time_Value *)" (__imp_?putq@?$ACE_Task@VACE_MT_SYNCH@@VACE_System_Time_Policy@@@@QAEHPAVACE_Message_Block@@PAVACE_Time_Value@@@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_Message_Queue<class ACE_MT_SYNCH,class ACE_System_Time_Policy> * __thiscall ACE_Task<class ACE_MT_SYNCH,class ACE_System_Time_Policy>::msg_queue(void)" (__imp_?msg_queue@?$ACE_Task@VACE_MT_SYNCH@@VACE_System_Time_Policy@@@@QAEPAV?$ACE_Message_Queue@VACE_MT_SYNCH@@VACE_System_Time_Policy@@@@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Task<class ACE_MT_SYNCH,class ACE_System_Time_Policy>::~ACE_Task<class ACE_MT_SYNCH,class ACE_System_Time_Policy>(void)" (__imp_??1?$ACE_Task@VACE_MT_SYNCH@@VACE_System_Time_Policy@@@@UAE@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Task<class ACE_MT_SYNCH,class ACE_System_Time_Policy>::ACE_Task<class ACE_MT_SYNCH,class ACE_System_Time_Policy>(class ACE_Thread_Manager *,class ACE_Message_Queue<class ACE_MT_SYNCH,class ACE_System_Time_Policy> *)" (__imp_??0?$ACE_Task@VACE_MT_SYNCH@@VACE_System_Time_Policy@@@@QAE@PAVACE_Thread_Manager@@PAV?$ACE_Message_Queue@VACE_MT_SYNCH@@VACE_System_Time_Policy@@@@@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_IPC_SAP::disable(int)const " (__imp_?disable@ACE_IPC_SAP@@QBEHH@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_IPC_SAP::enable(int)const " (__imp_?enable@ACE_IPC_SAP@@QBEHH@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Message_Block::copy(char const *,unsigned int)" (__imp_?copy@ACE_Message_Block@@QAEHPBDI@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual class ACE_Message_Block * __thiscall ACE_Message_Block::release(void)" (__imp_?release@ACE_Message_Block@@UAEPAV1@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual class ACE_Message_Block * __thiscall ACE_Message_Block::duplicate(void)const " (__imp_?duplicate@ACE_Message_Block@@UBEPAV1@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual class ACE_Message_Block * __thiscall ACE_Message_Block::clone(unsigned long)const " (__imp_?clone@ACE_Message_Block@@UBEPAV1@K@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Message_Block::~ACE_Message_Block(void)" (__imp_??1ACE_Message_Block@@UAE@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Message_Block::ACE_Message_Block(unsigned int,int,class ACE_Message_Block *,char const *,class ACE_Allocator *,class ACE_Lock *,unsigned long,class ACE_Time_Value const &,class ACE_Time_Value const &,class ACE_Allocator *,class ACE_Allocator *)" (__imp_??0ACE_Message_Block@@QAE@IHPAV0@PBDPAVACE_Allocator@@PAVACE_Lock@@KABVACE_Time_Value@@422@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Reactor::register_handler(class ACE_Event_Handler *,unsigned long)" (__imp_?register_handler@ACE_Reactor@@QAEHPAVACE_Event_Handler@@K@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Reactor::register_handler(void *,class ACE_Event_Handler *,unsigned long)" (__imp_?register_handler@ACE_Reactor@@QAEHPAXPAVACE_Event_Handler@@K@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Reactor * __cdecl ACE_Reactor::instance(void)" (__imp_?instance@ACE_Reactor@@SAPAV1@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: char const * __thiscall ACE_INET_Addr::get_host_addr(char *,int)const " (__imp_?get_host_addr@ACE_INET_Addr@@QBEPBDPADH@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: char const * __thiscall ACE_INET_Addr::get_host_name(void)const " (__imp_?get_host_name@ACE_INET_Addr@@QBEPBDXZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_INET_Addr::set_port_number(unsigned short,int)" (__imp_?set_port_number@ACE_INET_Addr@@QAEXGH@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_INET_Addr::addr_to_string(char * const,unsigned int,int)const " (__imp_?addr_to_string@ACE_INET_Addr@@UBEHQADIH@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_INET_Addr::set(unsigned short,char const * const,int,int)" (__imp_?set@ACE_INET_Addr@@QAEHGQBDHH@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_INET_Addr::~ACE_INET_Addr(void)" (__imp_??1ACE_INET_Addr@@UAE@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_INET_Addr::ACE_INET_Addr(void)" (__imp_??0ACE_INET_Addr@@QAE@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_INET_Addr::ACE_INET_Addr(unsigned short,char const * const,int)" (__imp_??0ACE_INET_Addr@@QAE@GQBDH@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_SOCK::get_remote_addr(class ACE_Addr &)const " (__imp_?get_remote_addr@ACE_SOCK@@QBEHAAVACE_Addr@@@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_SOCK::get_local_addr(class ACE_Addr &)const " (__imp_?get_local_addr@ACE_SOCK@@QBEHAAVACE_Addr@@@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Event_Handler_var::~ACE_Event_Handler_var(void)" (__imp_??1ACE_Event_Handler_var@@QAE@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Event_Handler_var::ACE_Event_Handler_var(class ACE_Event_Handler *)" (__imp_??0ACE_Event_Handler_var@@QAE@PAVACE_Event_Handler@@@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class ACE_String_Base<char> const &)" (__imp_??6@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV01@ABV?$ACE_String_Base@D@@@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Copy_Disabled::ACE_Copy_Disabled(void)" (__imp_??0ACE_Copy_Disabled@@QAE@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_SOCK_Acceptor::accept(class ACE_SOCK_Stream &,class ACE_Addr *,class ACE_Time_Value *,bool,bool)const " (__imp_?accept@ACE_SOCK_Acceptor@@QBEHAAVACE_SOCK_Stream@@PAVACE_Addr@@PAVACE_Time_Value@@_N3@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_SOCK_Acceptor::close(void)" (__imp_?close@ACE_SOCK_Acceptor@@QAEHXZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_SOCK_Acceptor::open(class ACE_Addr const &,int,int,int,int,int)" (__imp_?open@ACE_SOCK_Acceptor@@QAEHABVACE_Addr@@HHHHH@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_SOCK_Acceptor::ACE_SOCK_Acceptor(void)" (__imp_??0ACE_SOCK_Acceptor@@QAE@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Time_Value const ACE_Time_Value::zero" (__imp_?zero@ACE_Time_Value@@2V1@B)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Service_Object::~ACE_Service_Object(void)" (__imp_??1ACE_Service_Object@@UAE@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Service_Object::ACE_Service_Object(class ACE_Reactor *)" (__imp_??0ACE_Service_Object@@QAE@PAVACE_Reactor@@@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) int __cdecl ACE_OS::snprintf(char *,unsigned int,char const *,...)" (__imp_?snprintf@ACE_OS@@YAHPADIPBDZZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) char * __cdecl ACE_OS::strsncpy(char *,char const *,unsigned int)" (__imp_?strsncpy@ACE_OS@@YAPADPADPBDI@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_SOCK_Connector::connect(class ACE_SOCK_Stream &,class ACE_Addr const &,class ACE_Time_Value const *,class ACE_Addr const &,int,int,int,int)" (__imp_?connect@ACE_SOCK_Connector@@QAEHAAVACE_SOCK_Stream@@ABVACE_Addr@@PBVACE_Time_Value@@1HHHH@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Time_Value const ACE_Time_Value::max_time" (__imp_?max_time@ACE_Time_Value@@2V1@B)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static unsigned int const ACE_String_Base_Const::npos" (__imp_?npos@ACE_String_Base_Const@@2IB)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Task_Base::resume(void)" (__imp_?resume@ACE_Task_Base@@UAEHXZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Task_Base::suspend(void)" (__imp_?suspend@ACE_Task_Base@@UAEHXZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Task_Base::wait(void)" (__imp_?wait@ACE_Task_Base@@UAEHXZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Task_Base::activate(long,int,int,long,int,class ACE_Task_Base *,void * * const,void * * const,unsigned int * const,unsigned long * const,char const * * const)" (__imp_?activate@ACE_Task_Base@@UAEHJHHJHPAV1@QAPAX1QAIQAKQAPBD@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Task_Base::svc(void)" (__imp_?svc@ACE_Task_Base@@UAEHXZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Task_Base::put(class ACE_Message_Block *,class ACE_Time_Value *)" (__imp_?put@ACE_Task_Base@@UAEHPAVACE_Message_Block@@PAVACE_Time_Value@@@Z)
+    Conseil sur les symboles définis et susceptibles de correspondre :
+      "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > & __thiscall std::basic_ostream<char,struct std::char_traits<char> >::put(char)" (__imp_?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@D@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Task_Base::module_closed(void)" (__imp_?module_closed@ACE_Task_Base@@UAEHXZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_Time_Value const * __thiscall ACE_Synch_Options::time_value(void)const " (__imp_?time_value@ACE_Synch_Options@@QBEPBVACE_Time_Value@@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_Time_Value const & __thiscall ACE_Synch_Options::timeout(void)const " (__imp_?timeout@ACE_Synch_Options@@QBEABVACE_Time_Value@@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void const * __thiscall ACE_Synch_Options::arg(void)const " (__imp_?arg@ACE_Synch_Options@@QBEPBXXZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: bool __thiscall ACE_Synch_Options::operator[](unsigned long)const " (__imp_??AACE_Synch_Options@@QBE_NK@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Synch_Options::set(unsigned long,class ACE_Time_Value const &,void const *)" (__imp_?set@ACE_Synch_Options@@QAEXKABVACE_Time_Value@@PBX@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Synch_Options::ACE_Synch_Options(unsigned long,class ACE_Time_Value const &,void const *)" (__imp_??0ACE_Synch_Options@@QAE@KABVACE_Time_Value@@PBX@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Log_Msg::log_hexdump(enum ACE_Log_Priority,char const *,unsigned int,char const *,class ACE_Log_Category_TSS *)" (__imp_?log_hexdump@ACE_Log_Msg@@QAEHW4ACE_Log_Priority@@PBDI1PAVACE_Log_Category_TSS@@@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Addr const ACE_Addr::sap_any" (__imp_?sap_any@ACE_Addr@@2V1@B)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Time_Value::ACE_Time_Value(struct _FILETIME const &)" (__imp_??0ACE_Time_Value@@QAE@ABU_FILETIME@@@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_SOCK_Stream::close(void)" (__imp_?close@ACE_SOCK_Stream@@QAEHXZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: bool __thiscall ACE_String_Base<char>::operator!=(class ACE_String_Base<char> const &)const " (__imp_??9?$ACE_String_Base@D@@QBE_NABV0@@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: unsigned int __thiscall ACE_String_Base<char>::find(char,unsigned int)const " (__imp_?find@?$ACE_String_Base@D@@QBEIDI@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: char const * __thiscall ACE_String_Base<char>::c_str(void)const " (__imp_?c_str@?$ACE_String_Base@D@@QBEPBDXZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: bool __thiscall ACE_String_Base<char>::empty(void)const " (__imp_?empty@?$ACE_String_Base@D@@QBE_NXZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: unsigned int __thiscall ACE_String_Base<char>::length(void)const " (__imp_?length@?$ACE_String_Base@D@@QBEIXZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_String_Base<char> & __thiscall ACE_String_Base<char>::append(char const *,unsigned int)" (__imp_?append@?$ACE_String_Base@D@@QAEAAV1@PBDI@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_String_Base<char> & __thiscall ACE_String_Base<char>::operator+=(class ACE_String_Base<char> const &)" (__imp_??Y?$ACE_String_Base@D@@QAEAAV0@ABV0@@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_String_Base<char> & __thiscall ACE_String_Base<char>::operator+=(char)" (__imp_??Y?$ACE_String_Base@D@@QAEAAV0@D@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_String_Base<char>::clear(bool)" (__imp_?clear@?$ACE_String_Base@D@@QAEX_N@Z)
+    Conseil sur les symboles définis et susceptibles de correspondre :
+      "__declspec(dllimport) public: void __thiscall std::basic_ios<char,struct std::char_traits<char> >::clear(int,bool)" (__imp_?clear@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: char & __thiscall ACE_String_Base<char>::operator[](unsigned int)" (__imp_??A?$ACE_String_Base@D@@QAEAADI@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_String_Base<char>::ACE_String_Base<char>(class ACE_Allocator *)" (__imp_??0?$ACE_String_Base@D@@QAE@PAVACE_Allocator@@@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_String_Base<char>::ACE_String_Base<char>(char const *,class ACE_Allocator *,bool)" (__imp_??0?$ACE_String_Base@D@@QAE@PBDPAVACE_Allocator@@_N@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: enum ACE_Event_Handler::Reference_Counting_Policy::Value __thiscall ACE_Event_Handler::Reference_Counting_Policy::value(void)const " (__imp_?value@Reference_Counting_Policy@ACE_Event_Handler@@QBE?AW4Value@12@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Event_Handler::Reference_Counting_Policy::value(enum ACE_Event_Handler::Reference_Counting_Policy::Value)" (__imp_?value@Reference_Counting_Policy@ACE_Event_Handler@@QAEXW4Value@12@@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) protected: __thiscall ACE_Event_Handler::ACE_Event_Handler(class ACE_Reactor *,int)" (__imp_??0ACE_Event_Handler@@IAE@PAVACE_Reactor@@H@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_Event_Handler::Reference_Counting_Policy & __thiscall ACE_Event_Handler::reference_counting_policy(void)" (__imp_?reference_counting_policy@ACE_Event_Handler@@QAEAAVReference_Counting_Policy@1@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual long __thiscall ACE_Event_Handler::remove_reference(void)" (__imp_?remove_reference@ACE_Event_Handler@@UAEJXZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual long __thiscall ACE_Event_Handler::add_reference(void)" (__imp_?add_reference@ACE_Event_Handler@@UAEJXZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual class ACE_Reactor_Timer_Interface * __thiscall ACE_Event_Handler::reactor_timer_interface(void)const " (__imp_?reactor_timer_interface@ACE_Event_Handler@@UBEPAVACE_Reactor_Timer_Interface@@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual void __thiscall ACE_Event_Handler::reactor(class ACE_Reactor *)" (__imp_?reactor@ACE_Event_Handler@@UAEXPAVACE_Reactor@@@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual class ACE_Reactor * __thiscall ACE_Event_Handler::reactor(void)const " (__imp_?reactor@ACE_Event_Handler@@UBEPAVACE_Reactor@@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::handle_group_qos(void *)" (__imp_?handle_group_qos@ACE_Event_Handler@@UAEHPAX@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::handle_qos(void *)" (__imp_?handle_qos@ACE_Event_Handler@@UAEHPAX@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::resume_handler(void)" (__imp_?resume_handler@ACE_Event_Handler@@UAEHXZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::handle_signal(int,struct siginfo_t *,int *)" (__imp_?handle_signal@ACE_Event_Handler@@UAEHHPAUsiginfo_t@@PAH@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::handle_close(void *,unsigned long)" (__imp_?handle_close@ACE_Event_Handler@@UAEHPAXK@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::handle_exit(class ACE_Process *)" (__imp_?handle_exit@ACE_Event_Handler@@UAEHPAVACE_Process@@@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::handle_timeout(class ACE_Time_Value const &,void const *)" (__imp_?handle_timeout@ACE_Event_Handler@@UAEHABVACE_Time_Value@@PBX@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::handle_exception(void *)" (__imp_?handle_exception@ACE_Event_Handler@@UAEHPAX@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::handle_output(void *)" (__imp_?handle_output@ACE_Event_Handler@@UAEHPAX@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::handle_input(void *)" (__imp_?handle_input@ACE_Event_Handler@@UAEHPAX@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual int __thiscall ACE_Event_Handler::priority(void)const " (__imp_?priority@ACE_Event_Handler@@UBEHXZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual void __thiscall ACE_Event_Handler::priority(int)" (__imp_?priority@ACE_Event_Handler@@UAEXH@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual void __thiscall ACE_Event_Handler::set_handle(void *)" (__imp_?set_handle@ACE_Event_Handler@@UAEXPAX@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual void * __thiscall ACE_Event_Handler::get_handle(void)const " (__imp_?get_handle@ACE_Event_Handler@@UBEPAXXZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Dynamic * __cdecl ACE_Dynamic::instance(void)" (__imp_?instance@ACE_Dynamic@@SAPAV1@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Reactor_Notification_Strategy::~ACE_Reactor_Notification_Strategy(void)" (__imp_??1ACE_Reactor_Notification_Strategy@@UAE@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Reactor_Notification_Strategy::ACE_Reactor_Notification_Strategy(class ACE_Reactor *,class ACE_Event_Handler *,unsigned long)" (__imp_??0ACE_Reactor_Notification_Strategy@@QAE@PAVACE_Reactor@@PAVACE_Event_Handler@@K@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Synch_Options ACE_Synch_Options::defaults" (__imp_?defaults@ACE_Synch_Options@@2V1@A)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_Time_Value & __thiscall ACE_Time_Value::operator=(class ACE_Time_Value const &)" (__imp_??4ACE_Time_Value@@QAEAAV0@ABV0@@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Event_Handler::~ACE_Event_Handler(void)" (__imp_??1ACE_Event_Handler@@UAE@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Time_Value_T<class ACE_FPointer_Time_Policy>::~ACE_Time_Value_T<class ACE_FPointer_Time_Policy>(void)" (__imp_??1?$ACE_Time_Value_T@VACE_FPointer_Time_Policy@@@@UAE@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Synch_Options::~ACE_Synch_Options(void)" (__imp_??1ACE_Synch_Options@@QAE@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_SOCK_Acceptor::~ACE_SOCK_Acceptor(void)" (__imp_??1ACE_SOCK_Acceptor@@QAE@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Dynamic::reset(void)" (__imp_?reset@ACE_Dynamic@@QAEXXZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: bool __thiscall ACE_Dynamic::is_dynamic(void)" (__imp_?is_dynamic@ACE_Dynamic@@QAE_NXZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Dynamic::set(void)" (__imp_?set@ACE_Dynamic@@QAEXXZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: bool __thiscall ACE_Reactor::uses_event_associations(void)" (__imp_?uses_event_associations@ACE_Reactor@@QAE_NXZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Reactor::owner(unsigned long *)" (__imp_?owner@ACE_Reactor@@QAEHPAK@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_Lock & __thiscall ACE_Reactor::lock(void)" (__imp_?lock@ACE_Reactor@@QAEAAVACE_Lock@@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_Event_Handler * __thiscall ACE_Reactor::find_handler(void *)" (__imp_?find_handler@ACE_Reactor@@QAEPAVACE_Event_Handler@@PAX@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Reactor::resume_handler(class ACE_Event_Handler *)" (__imp_?resume_handler@ACE_Reactor@@QAEHPAVACE_Event_Handler@@@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Reactor::suspend_handler(class ACE_Event_Handler *)" (__imp_?suspend_handler@ACE_Reactor@@QAEHPAVACE_Event_Handler@@@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Reactor::remove_handler(void *,unsigned long)" (__imp_?remove_handler@ACE_Reactor@@QAEHPAXK@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Reactor::remove_handler(class ACE_Event_Handler *,unsigned long)" (__imp_?remove_handler@ACE_Reactor@@QAEHPAVACE_Event_Handler@@K@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Reactor::handle_events(class ACE_Time_Value *)" (__imp_?handle_events@ACE_Reactor@@QAEHPAVACE_Time_Value@@@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Message_Block::rd_ptr(unsigned int)" (__imp_?rd_ptr@ACE_Message_Block@@QAEXI@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: char * __thiscall ACE_Message_Block::rd_ptr(void)const " (__imp_?rd_ptr@ACE_Message_Block@@QBEPADXZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: char * __thiscall ACE_Message_Block::base(void)const " (__imp_?base@ACE_Message_Block@@QBEPADXZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: unsigned int __thiscall ACE_Message_Block::length(void)const " (__imp_?length@ACE_Message_Block@@QBEIXZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: char * __thiscall ACE_Data_Block::base(void)const " (__imp_?base@ACE_Data_Block@@QBEPADXZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_Data_Block * __thiscall ACE_Message_Block::data_block(void)const " (__imp_?data_block@ACE_Message_Block@@QBEPAVACE_Data_Block@@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: bool __thiscall ACE_SOCK_Connector::reset_new_handle(void *)" (__imp_?reset_new_handle@ACE_SOCK_Connector@@QAE_NPAX@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_SOCK_Connector::ACE_SOCK_Connector(void)" (__imp_??0ACE_SOCK_Connector@@QAE@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_SOCK_Connector::~ACE_SOCK_Connector(void)" (__imp_??1ACE_SOCK_Connector@@QAE@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_SOCK_Stream::send_n(void const *,unsigned int,class ACE_Time_Value const *,unsigned int *)const " (__imp_?send_n@ACE_SOCK_Stream@@QBEHPBXIPBVACE_Time_Value@@PAI@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_SOCK_Stream::recv_n(void *,unsigned int,class ACE_Time_Value const *,unsigned int *)const " (__imp_?recv_n@ACE_SOCK_Stream@@QBEHPAXIPBVACE_Time_Value@@PAI@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_SOCK_Stream::~ACE_SOCK_Stream(void)" (__imp_??1ACE_SOCK_Stream@@QAE@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_SOCK_Stream::ACE_SOCK_Stream(void)" (__imp_??0ACE_SOCK_Stream@@QAE@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: unsigned short __thiscall ACE_INET_Addr::get_port_number(void)const " (__imp_?get_port_number@ACE_INET_Addr@@QBEGXZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_IPC_SAP::set_handle(void *)" (__imp_?set_handle@ACE_IPC_SAP@@QAEXPAX@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void * __thiscall ACE_IPC_SAP::get_handle(void)const " (__imp_?get_handle@ACE_IPC_SAP@@QBEPAXXZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Addr::get_type(void)const " (__imp_?get_type@ACE_Addr@@QBEHXZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_Time_Value_T<class ACE_FPointer_Time_Policy> __thiscall ACE_FPointer_Time_Policy::operator()(void)const " (__imp_??RACE_FPointer_Time_Policy@@QBE?AV?$ACE_Time_Value_T@VACE_FPointer_Time_Policy@@@@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_FPointer_Time_Policy::ACE_FPointer_Time_Policy(void)" (__imp_??0ACE_FPointer_Time_Policy@@QAE@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static unsigned long __cdecl ACE_Thread::self(void)" (__imp_?self@ACE_Thread@@SAKXZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_Time_Value & __thiscall ACE_Time_Value::operator=(class ACE_Time_Value &&)" (__imp_??4ACE_Time_Value@@QAEAAV0@$$QAV0@@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) class ACE_Time_Value __cdecl operator-(class ACE_Time_Value const &,class ACE_Time_Value const &)" (__imp_??G@YA?AVACE_Time_Value@@ABV0@0@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_Time_Value & __thiscall ACE_Time_Value::operator+=(class ACE_Time_Value const &)" (__imp_??YACE_Time_Value@@QAEAAV0@ABV0@@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) bool __cdecl operator==(class ACE_Time_Value const &,class ACE_Time_Value const &)" (__imp_??8@YA_NABVACE_Time_Value@@0@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) bool __cdecl operator>=(class ACE_Time_Value const &,class ACE_Time_Value const &)" (__imp_??P@YA_NABVACE_Time_Value@@0@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) bool __cdecl operator>(class ACE_Time_Value const &,class ACE_Time_Value const &)" (__imp_??O@YA_NABVACE_Time_Value@@0@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Time_Value::ACE_Time_Value(class ACE_Time_Value const &)" (__imp_??0ACE_Time_Value@@QAE@ABV0@@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: long __thiscall ACE_Time_Value::usec(void)const " (__imp_?usec@ACE_Time_Value@@QBEJXZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: unsigned long __thiscall ACE_Time_Value::msec(void)const " (__imp_?msec@ACE_Time_Value@@QBEKXZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __int64 __thiscall ACE_Time_Value::sec(void)const " (__imp_?sec@ACE_Time_Value@@QBE_JXZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Time_Value::ACE_Time_Value(__int64,long)" (__imp_??0ACE_Time_Value@@QAE@_JJ@Z)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Time_Value::ACE_Time_Value(void)" (__imp_??0ACE_Time_Value@@QAE@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Time_Value::~ACE_Time_Value(void)" (__imp_??1ACE_Time_Value@@UAE@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Errno_Guard::~ACE_Errno_Guard(void)" (__imp_??1ACE_Errno_Guard@@QAE@XZ)
+FTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Errno_Guard::ACE_Errno_Guard(int &)" (__imp_??0ACE_Errno_Guard@@QAE@AAH@Z)
+FTP_Request.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_String_Base<char>::ACE_String_Base<char>(unsigned int,char,class ACE_Allocator *)" (__imp_??0?$ACE_String_Base@D@@QAE@IDPAVACE_Allocator@@@Z)
+FTP_URL.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Object_Manager::get_singleton_lock(class ACE_Null_Mutex * &)" (__imp_?get_singleton_lock@ACE_Object_Manager@@SAHAAPAVACE_Null_Mutex@@@Z)
+HTTP_BasicAuthentication.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static unsigned char * __cdecl ACE_Base64::decode(unsigned char const *,unsigned int *)" (__imp_?decode@ACE_Base64@@SAPAEPBEPAI@Z)
+HTTP_BasicAuthentication.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static unsigned char * __cdecl ACE_Base64::encode(unsigned char const *,unsigned int,unsigned int *,bool)" (__imp_?encode@ACE_Base64@@SAPAEPBEIPAI_N@Z)
+HTTP_BasicAuthentication.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: bool __thiscall ACE_String_Base<char>::operator<(class ACE_String_Base<char> const &)const " (__imp_??M?$ACE_String_Base@D@@QBE_NABV0@@Z)
+HTTP_BasicAuthentication.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: bool __thiscall ACE_String_Base<char>::operator==(char const *)const " (__imp_??8?$ACE_String_Base@D@@QBE_NPBD@Z)
+HTTP_BasicAuthentication.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_String_Base<char> __thiscall ACE_String_Base<char>::substr(unsigned int,unsigned int)const " (__imp_?substr@?$ACE_String_Base@D@@QBE?AV1@II@Z)
+HTTP_BasicAuthentication.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_String_Base<char> & __thiscall ACE_String_Base<char>::operator=(char const *)" (__imp_??4?$ACE_String_Base@D@@QAEAAV0@PBD@Z)
+HTTP_BasicAuthentication.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_String_Base<char>::ACE_String_Base<char>(char const *,unsigned int,class ACE_Allocator *,bool)" (__imp_??0?$ACE_String_Base@D@@QAE@PBDIPAVACE_Allocator@@_N@Z)
+HTTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Thread_Mutex::acquire_write(void)" (__imp_?acquire_write@ACE_Thread_Mutex@@QAEHXZ)
+HTTP_ClientRequestHandler.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Thread_Mutex::acquire_read(void)" (__imp_?acquire_read@ACE_Thread_Mutex@@QAEHXZ)
+HTTP_Request.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_String_Base_Iterator<char> & __thiscall ACE_String_Base_Iterator<char>::operator++(void)" (__imp_??E?$ACE_String_Base_Iterator@D@@QAEAAV0@XZ)
+HTTP_Request.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_String_Base_Iterator<char> __thiscall ACE_String_Base_Iterator<char>::operator++(int)" (__imp_??E?$ACE_String_Base_Iterator@D@@QAE?AV0@H@Z)
+HTTP_Request.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: char & __thiscall ACE_String_Base_Iterator<char>::operator*(void)" (__imp_??D?$ACE_String_Base_Iterator@D@@QAEAADXZ)
+HTTP_Request.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_String_Base_Iterator<char>::done(void)const " (__imp_?done@?$ACE_String_Base_Iterator@D@@QBEHXZ)
+HTTP_Request.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_String_Base_Iterator<char>::~ACE_String_Base_Iterator<char>(void)" (__imp_??1?$ACE_String_Base_Iterator@D@@QAE@XZ)
+HTTP_Request.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_String_Base_Iterator<char>::ACE_String_Base_Iterator<char>(class ACE_String_Base<char> &,int)" (__imp_??0?$ACE_String_Base_Iterator@D@@QAE@AAV?$ACE_String_Base@D@@H@Z)
+HTTP_Request.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: class ACE_String_Base<char> & __thiscall ACE_String_Base<char>::operator+=(char const *)" (__imp_??Y?$ACE_String_Base@D@@QAEAAV0@PBD@Z)
+HeaderBase.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_String_Base<char>::fast_clear(void)" (__imp_?fast_clear@?$ACE_String_Base@D@@QAEXXZ)
+INet_Log.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Log_Msg::msg_ostream(class std::basic_ostream<char,struct std::char_traits<char> > *,bool)" (__imp_?msg_ostream@ACE_Log_Msg@@QAEXPAV?$basic_ostream@DU?$char_traits@D@std@@@std@@_N@Z)
+INet_Log.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Log_Msg::clr_flags(unsigned long)" (__imp_?clr_flags@ACE_Log_Msg@@QAEXK@Z)
+INet_Log.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Log_Msg::set_flags(unsigned long)" (__imp_?set_flags@ACE_Log_Msg@@QAEXK@Z)
+URLBase.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Recursive_Thread_Mutex::~ACE_Recursive_Thread_Mutex(void)" (__imp_??1ACE_Recursive_Thread_Mutex@@QAE@XZ)
+URLBase.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Recursive_Thread_Mutex::ACE_Recursive_Thread_Mutex(char const *,struct ACE_mutexattr_t *)" (__imp_??0ACE_Recursive_Thread_Mutex@@QAE@PBDPAUACE_mutexattr_t@@@Z)
+URLBase.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: wchar_t const * __thiscall ACE_String_Base<wchar_t>::c_str(void)const " (__imp_?c_str@?$ACE_String_Base@_W@@QBEPB_WXZ)
+URLBase.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_String_Base<wchar_t>::~ACE_String_Base<wchar_t>(void)" (__imp_??1?$ACE_String_Base@_W@@QAE@XZ)
+URLBase.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_String_Base<wchar_t>::ACE_String_Base<wchar_t>(wchar_t const *,class ACE_Allocator *,bool)" (__imp_??0?$ACE_String_Base@_W@@QAE@PB_WPAVACE_Allocator@@_N@Z)
+URLBase.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Recursive_Thread_Mutex::acquire_write(void)" (__imp_?acquire_write@ACE_Recursive_Thread_Mutex@@QAEHXZ)
+URLBase.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Recursive_Thread_Mutex::acquire_read(void)" (__imp_?acquire_read@ACE_Recursive_Thread_Mutex@@QAEHXZ)
+URLBase.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Recursive_Thread_Mutex::release(void)" (__imp_?release@ACE_Recursive_Thread_Mutex@@QAEHXZ)
+URLBase.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Recursive_Thread_Mutex::acquire(void)" (__imp_?acquire@ACE_Recursive_Thread_Mutex@@QAEHXZ)
+..\..\..\lib\ACE_INet.dll : fatal error LNK1120: 218 externes non résolus

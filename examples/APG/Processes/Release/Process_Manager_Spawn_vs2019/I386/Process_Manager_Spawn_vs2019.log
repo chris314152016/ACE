@@ -1,0 +1,16 @@
+﻿  Process_Manager_Spawn.cpp
+Process_Manager_Spawn.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Main_Base::run(int,char * * const)" (__imp_?run@ACE_Main_Base@@QAEHHQAPAD@Z)
+Process_Manager_Spawn.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall ACE_Main_Base::~ACE_Main_Base(void)" (__imp_??1ACE_Main_Base@@UAE@XZ)
+Process_Manager_Spawn.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Main_Base::ACE_Main_Base(void)" (__imp_??0ACE_Main_Base@@QAE@XZ)
+Process_Manager_Spawn.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Process_Manager::wait(int,unsigned long *)" (__imp_?wait@ACE_Process_Manager@@QAEHHPAK@Z)
+Process_Manager_Spawn.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Process_Manager::terminate(int)" (__imp_?terminate@ACE_Process_Manager@@QAEHH@Z)
+Process_Manager_Spawn.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __thiscall ACE_Process_Manager::spawn_n(unsigned int,class ACE_Process_Options &,int *,class ACE_Event_Handler *)" (__imp_?spawn_n@ACE_Process_Manager@@QAEHIAAVACE_Process_Options@@PAHPAVACE_Event_Handler@@@Z)
+Process_Manager_Spawn.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Process_Manager * __cdecl ACE_Process_Manager::instance(void)" (__imp_?instance@ACE_Process_Manager@@SAPAV1@XZ)
+Process_Manager_Spawn.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __cdecl ACE_Log_Msg::log(enum ACE_Log_Priority,char const *,...)" (__imp_?log@ACE_Log_Msg@@QAAHW4ACE_Log_Priority@@PBDZZ)
+Process_Manager_Spawn.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __thiscall ACE_Log_Msg::conditional_set(char const *,int,int,int)" (__imp_?conditional_set@ACE_Log_Msg@@QAEXPBDHHH@Z)
+Process_Manager_Spawn.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static int __cdecl ACE_Log_Msg::last_error_adapter(void)" (__imp_?last_error_adapter@ACE_Log_Msg@@SAHXZ)
+Process_Manager_Spawn.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: static class ACE_Log_Msg * __cdecl ACE_Log_Msg::instance(void)" (__imp_?instance@ACE_Log_Msg@@SAPAV1@XZ)
+Process_Manager_Spawn.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: int __cdecl ACE_Process_Options::command_line(char const *,...)" (__imp_?command_line@ACE_Process_Options@@QAAHPBDZZ)
+Process_Manager_Spawn.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Process_Options::~ACE_Process_Options(void)" (__imp_??1ACE_Process_Options@@QAE@XZ)
+Process_Manager_Spawn.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __thiscall ACE_Process_Options::ACE_Process_Options(bool,unsigned int,unsigned int,unsigned int,unsigned int)" (__imp_??0ACE_Process_Options@@QAE@_NIIII@Z)
+Release\Process_Manager_Spawn.exe : fatal error LNK1120: 14 externes non résolus

@@ -1,0 +1,7 @@
+﻿  Compiler_Features_22_DLL.cpp
+     Création de la bibliothèque .\Compiler_Features_22.lib et de l'objet .\Compiler_Features_22.exp
+  Génération de code en cours
+  Previous IPDB not found, fall back to full compilation.
+  All 1 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Fin de la génération du code
+  Compiler_Features_22_Test_vs2019.vcxproj -> C:\_dev\git\ACE_wrappers\tests\Compiler_Features_22.dll
